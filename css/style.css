@@ -4150,7 +4150,7 @@ footer .color-bar {
 }
 
 /*=== 5.4 ABOUT SCHOOL ===*/
-.schoolInfo h2 {
+.homeWelcome h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 36px;
   line-height: 42px;
@@ -4160,24 +4160,24 @@ footer .color-bar {
 }
 
 @media (min-width: 320px) {
-  .schoolInfo h2 {
+  .homeWelcome h2 {
     margin: 25px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .schoolInfo h2 {
+  .homeWelcome h2 {
     margin: 0 0 25px 0;
   }
 }
 
-.schoolInfo p {
+.homeWelcome p {
   font-size: 15px;
   color: #222222;
   margin-bottom: 25px;
 }
 
-.schoolInfo .btn-primary {
+.homeWelcome .btn-primary {
   margin-top: 20px;
 }
 
@@ -6489,35 +6489,35 @@ footer .color-bar {
 
 /*=== 5.4 ABOUT SCHOOL ===*/
 @media (min-width: 320px) {
-  .aboutSchool {
+  .homeIntro {
     padding: 50px !important;
   }
 }
 
 @media (min-width: 768px) {
-  .aboutSchool {
+  .homeIntro {
     padding: 100px 0px 0px 0px !important;
   }
 }
 
-.aboutSchool .schoolInfo h2 {
+.homeIntro .homeWelcome h2 {
   text-transform: uppercase;
   color: #e7655a;
   font-size: 30px;
 }
 
-.aboutSchool .schoolInfo h2 span {
+.homeIntro .homeWelcome h2 span {
   color: #666666;
   font-size: 38px;
 }
 
-.aboutSchool .schoolInfo p {
+.homeIntro .homeWelcome p {
   color: #222222 !important;
   font-weight: 600;
   font-size: 18px;
 }
 
-.aboutSchool .schoolInfo .aboutP2 {
+.homeIntro .homeWelcome .aboutP2 {
   color: #666666 !important;
   font-weight: 600;
   font-size: 18px;
