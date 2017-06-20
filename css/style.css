@@ -1033,7 +1033,7 @@ aside {
 }
 
 .pageTitleSection {
-  background-image: url("../img/page-title/page-title-bg.jpg");
+  background-image: url("../img/banner/banner-leishmania-short.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -4150,7 +4150,7 @@ footer .color-bar {
 }
 
 /*=== 5.4 ABOUT SCHOOL ===*/
-.homeWelcome h2 {
+.mainIntro h2 {
   font-family: 'Dosis', sans-serif;
   font-size: 36px;
   line-height: 42px;
@@ -4160,24 +4160,24 @@ footer .color-bar {
 }
 
 @media (min-width: 320px) {
-  .homeWelcome h2 {
+  .mainIntro h2 {
     margin: 25px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .homeWelcome h2 {
+  .mainIntro h2 {
     margin: 0 0 25px 0;
   }
 }
 
-.homeWelcome p {
+.mainIntro p {
   font-size: 15px;
   color: #222222;
   margin-bottom: 25px;
 }
 
-.homeWelcome .btn-primary {
+.mainIntro .btn-primary {
   margin-top: 20px;
 }
 
@@ -6489,35 +6489,35 @@ footer .color-bar {
 
 /*=== 5.4 ABOUT SCHOOL ===*/
 @media (min-width: 320px) {
-  .homeIntro {
+  .mainSection {
     padding: 50px !important;
   }
 }
 
 @media (min-width: 768px) {
-  .homeIntro {
+  .mainSection {
     padding: 100px 0px 0px 0px !important;
   }
 }
 
-.homeIntro .homeWelcome h2 {
+.mainSection .mainIntro h2 {
   text-transform: uppercase;
   color: #e7655a;
   font-size: 30px;
 }
 
-.homeIntro .homeWelcome h2 span {
+.mainSection .mainIntro h2 span {
   color: #666666;
   font-size: 38px;
 }
 
-.homeIntro .homeWelcome p {
+.mainSection .mainIntro p {
   color: #222222 !important;
   font-weight: 600;
   font-size: 18px;
 }
 
-.homeIntro .homeWelcome .aboutP2 {
+.mainSection .mainIntro .aboutP2 {
   color: #666666 !important;
   font-weight: 600;
   font-size: 18px;
