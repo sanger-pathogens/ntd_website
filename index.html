@@ -24,7 +24,7 @@
 
   <!-- CUSTOM CSS -->
   <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/default.css" id="option_color">
+  <link rel="stylesheet" href="css/color-option1.css" id="option_color">
 
   <!-- Icons -->
   <link rel="shortcut icon" href="img/favicon.png">
@@ -38,158 +38,30 @@
 
 </head>
 
-<body class="body-wrapper">
+<body class="body-wrapper static">
 
   <div class="main-wrapper">
     <!-- HEADER -->
     <header id="pageTop" class="header-wrapper">
       <!-- COLOR BAR -->
-      <div class="container-fluid color-bar top-fixed clearfix">
-        <div class="row">
-          <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-          <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-          <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-          <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-        </div>
+      <div class="container-fluid color-bar top-fixed clearfix include-me" data-location="./includes/color-bar.html">
       </div>
 
       <!-- TOP INFO BAR -->
-      <div class="top-info-bar bg-color-7 hidden-xs">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-9">
-            </div>
-            <div class="col-sm-3 text-right">
-              <ul class="list-inline functionList">
-                <li><i class="fa fa-envelope bg-color-4" aria-hidden="true"></i> <a href="mailto:info@yourdomain.com">ntd@sanger.ac.uk</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div class="top-info-bar bg-color-7 hidden-xs include-me" data-location="./includes/topbar.html">
       </div>
 
       <!-- NAVBAR -->
-      <nav id="menuBar" class="navbar navbar-default lightHeader" role="navigation">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index-v2.html"><img src="img/logo-wtsi.png" alt="Wellcome Trust Sanger Institute"></a>
-          </div>
-        </div>
+      <nav id="menuBar" class="navbar navbar-default lightHeader include-me" data-location="./includes/navbar.html" role="navigation">
       </nav>
     </header>
 
 
     <!-- BANNER -->
-    <section class="bannercontainer bannercontainerV2">
-      <div class="fullscreenbanner-container">
-        <div class="fullscreenbanner">
-          <ul>
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Leishmaniasis">
-              <img src="img/home/banner/banner-leishmania-resized.jpg" alt="leishmania" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <div class="slider-caption container">
-                <div class="tp-caption rs-caption-1 sft start"
-                  data-hoffset="0"
-                  data-y="200"
-                  data-speed="800"
-                  data-start="1000"
-                  data-easing="Back.easeInOut"
-                  data-endspeed="300">
-                  Leishmania parasites
-                </div>
-
-                <div class="tp-caption rs-caption-2 sft"
-                  data-hoffset="0"
-                  data-y="265"
-                  data-speed="1000"
-                  data-start="1500"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  Humans infected by the bite of tiny, silent and stealthy <br> female phlebotomine sand flies
-                </div>
-              </div>
-            </li>
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-title="Rabies">
-              <img src="img/home/banner/banner-rabies-resized.jpg" alt="rabies" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <div class="slider-caption container">
-                <div class="tp-caption rs-caption-1 sft start text-right"
-                  data-hoffset="0"
-                  data-y="200"
-                  data-x="right"
-                  data-speed="800"
-                  data-start="1000"
-                  data-easing="Back.easeInOut"
-                  data-endspeed="300">
-                  Rabies
-                </div>
-
-                <div class="tp-caption rs-caption-2 sft text-right"
-                  data-hoffset="0"
-                  data-y="265"
-                  data-x="right"
-                  data-speed="1000"
-                  data-start="1500"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  Infection of the brain and nerves <br />
-                  from the bite or scratch of infected animals
-                </div>
-              </div>
-            <li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Schistosome">
-              <img src="img/home/banner/banner-schistosome-resized.jpg" alt="schistosome" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <div class="slider-caption container">
-                <div class="tp-caption rs-caption-1 sft start text-center"
-                  data-hoffset="0"
-                  data-x="center"
-                  data-y="200"
-                  data-speed="800"
-                  data-start="1000"
-                  data-easing="Back.easeInOut"
-                  data-endspeed="300">
-                  Schistosomiasis
-                </div>
-
-                <div class="tp-caption rs-caption-2 sft text-center"
-                  data-hoffset="0"
-                  data-x="center"
-                  data-y="265"
-                  data-speed="1000"
-                  data-start="1500"
-                  data-easing="Power4.easeOut"
-                  data-endspeed="300"
-                  data-endeasing="Power1.easeIn"
-                  data-captionhidden="off">
-                  also known as snail fever and bilharzia
-                </div>
-              </div>
-            </li>
+    <section class="bannercontainer bannercontainerV2 include-me" data-location="./includes/homepage-banner.html"></section>
 
 
-          </ul>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- WHITE SECTION -->
+    <!-- START MAIN BODY CONTENT -->
     <section class="whiteSection full-width clearfix aboutSchool">
       <div class="container">
         <div class="row">
@@ -207,231 +79,35 @@
               <p class="aboutP2">Fruitcake chupa chups soufflé apple pie icing. Tiramisu gummi bears sugar plum sesame snaps fruitcake. Tiramisu jujubes cake oat cake gingerbread jelly beans dragée bear claw gummi bears. Jelly beans toffee lemon drops carrot cake marshmallow pie.</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-4 col-xs-12">
-            <aside>
-              <div class="panel panel-default eventSidebar">
-                  <div class="panel-heading bg-color-4 border-color-4">
-                    <h3 class="panel-title">NTD Seminar</h3>
-                  </div>
-                  <div class="panel-body">
-                    <ul class="media-list">
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-2">
-                          <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-2">Start Date</h4>
-                          <p>15 Oct,2016</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-3">
-                          <i class="fa fa-clock-o" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-3">Event Duration</h4>
-                          <p>9.00 AM-11.00 AM</p>
-                        </div>
-                      </li>
-                      <li class="media iconContet">
-                        <div class="media-left iconContent bg-color-1">
-                          <i class="fa fa-phone" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-1">Contact</h4>
-                          <p>ntd@sanger.ac.uk</p>
-                        </div>
-                      </li>
-                      <li class="media">
-                        <div class="media-left iconContent bg-color-5">
-                          <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        </div>
-                        <div class="media-body iconContent">
-                          <h4 class="media-heading color-5">Event Venue</h4>
-                          <p>9/4 C  Block, garden <br> Street, Shyamoli, <br> Dhaka.</p>
-                        </div>
-                      </li>
-                      <li><a href="#" class="btn btn-primary bg-color-4 btn-block">More information</a></li>
-                    </ul>
-                  </div>
-              </div>
-            </aside>
-          </div>
+          <div class="col-md-3 col-sm-4 col-xs-12 include-me" data-location="./includes/ntd-seminar.html"></div>
         </div>
       </div>
     </section>
-
-    <div class="full-width" style="height:70px">
-    </div>
-
+    <!-- END MAIN BODY CONTENT -->
 
     <!-- BRAND SECTION -->
-    <section class="brandSection clearfix">
-      <div class="container">
-        <div class="owl-carousel partnersLogoSlider">
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-01.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-02.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-03.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-04.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-05.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-01.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-02.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-03.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-04.png" alt="partner-img">
-            </div>
-          </div>
-          <div class="slide">
-            <div class="partnersLogo clearfix">
-              <img src="img/home/brand/partner-05.png" alt="partner-img">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="brandSection clearfix include-me" data-location="./includes/partner-logos.html"></section>
 
-<!-- FOOTER -->
-<footer>
-  <!-- COLOR BAR -->
-  <div class="container-fluid color-bar clearfix">
-    <div class="row">
-      <div class="col-sm-1 col-xs-2 bg-color-1">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-2">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-3">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-4">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-5">fix bar</div>
-      <div class="col-sm-1 col-xs-2 bg-color-6">fix bar</div>
-      <div class="col-sm-1 bg-color-1 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-2 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-3 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-4 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-5 hidden-xs">fix bar</div>
-      <div class="col-sm-1 bg-color-6 hidden-xs">fix bar</div>
-    </div>
+    <!-- FOOTER -->
+    <footer class="include-me" data-location="./includes/footer.html"></footer>
   </div>
-  <!-- FOOTER INFO AREA -->
-  <div class="footerInfoArea full-width clearfix" style="background-image: url(img/footer/footer-bg-1.png);">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6 col-xs-12">
-          <div class="footerTitle">
-            <a href="index.html"><img src="img/logo-footer.png"></a>
-          </div>
-          <div class="footerInfo">
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit amet.</p>
-            <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="col-sm-3 col-xs-12">
-        </div>
-        <div class="col-sm-3 col-xs-12">
-          <div class="footerTitle">
-            <h4>Useful Links</h4>
-          </div>
-          <div class="footerInfo">
-            <ul class="list-unstyled footerList">
-              <li>
-                <a href="index.html">
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>Wellcome Trust Sanger Institute
-                </a>
-              </li>
-              <li>
-                <a href="about_us.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>World Health Organisation (WHO)
-                </a>
-              </li>
-              <li>
-                <a href="index-v2.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>NTD Partners
-                </a>
-              </li>
-              <li>
-                <a href="index-v3.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>NTD Blog
-                </a>
-              </li>
-              <li>
-                <a href="photo-gallery.html">
-                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                  NTD Videos
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- COPY RIGHT -->
-  <div class="copyRight clearfix">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-5 col-sm-push-7 col-xs-12">
-          <ul class="list-inline">
-            <li><a href="#" class="bg-color-4"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#" class="bg-color-4"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-sm-7 col-sm-pull-5 col-xs-12">
-          <div class="copyRightText">
-            <p>© 2017 Copyright Pathogen Informatics (WTSI)</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="plugins/jquery-ui/jquery-ui.js"></script>
-<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
-<script src="plugins/owl-carousel/owl.carousel.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-<script src="plugins/counter-up/jquery.counterup.min.js"></script>
-<script src="plugins/isotope/isotope.min.js"></script>
-<script src="plugins/isotope/jquery.fancybox.pack.js"></script>
-<script src="plugins/isotope/isotope-triger.js"></script>
-<script src="plugins/countdown/jquery.syotimer.js"></script>
-<script src="plugins/velocity/velocity.min.js"></script>
-<script src="plugins/smoothscroll/SmoothScroll.js"></script>
-<script src="js/custom.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="plugins/jquery-ui/jquery-ui.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="plugins/selectbox/jquery.selectbox-0.1.3.min.js"></script>
+  <script src="plugins/owl-carousel/owl.carousel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="plugins/counter-up/jquery.counterup.min.js"></script>
+  <script src="plugins/isotope/isotope.min.js"></script>
+  <script src="plugins/isotope/jquery.fancybox.pack.js"></script>
+  <script src="plugins/isotope/isotope-triger.js"></script>
+  <script src="plugins/countdown/jquery.syotimer.js"></script>
+  <script src="plugins/velocity/velocity.min.js"></script>
+  <script src="plugins/smoothscroll/SmoothScroll.js"></script>
+  <script src="js/custom.js"></script>
 
 </body>
 

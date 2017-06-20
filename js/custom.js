@@ -1,5 +1,10 @@
 jQuery(document).ready(function(){
 
+  // Include files
+  $('.include-me').each(function(){
+    $(this).load($(this).data('location'));
+  });
+
   //============================== MENU SCROLL =========================
    $(window).load(function(){
     $('.body-wrapper').each(function(){
@@ -81,18 +86,7 @@ $('.cart-dropdown a').on("click",function() {
     hideTimerBar:"on",
   });
 
-  jQuery('.bannercontainerV2 .fullscreenbanner').revolution({
-   delay: 5000,
-   startwidth: 1170,
-   startheight: 660,
-   fullWidth: "on",
-   fullScreen: "off",
-   hideCaptionAtLimit: "",
-   dottedOverlay: "none",
-   navigationStyle: "preview4",
-   fullScreenOffsetContainer: "",
-   hideTimerBar:"on"
-  });
+  
 //============================== OWL-CAROUSEL =========================
   var owl = $('.owl-carousel.teamSlider');
   owl.owlCarousel({
@@ -140,30 +134,7 @@ $('.cart-dropdown a').on("click",function() {
     }
   });
 
-  var owl = $('.owl-carousel.partnersLogoSlider');
-    owl.owlCarousel({
-      loop:true,
-      margin:28,
-      autoplay:true,
-      autoplayTimeout:2000,
-      autoplayHoverPause:true,
-      nav:true,
-      dots: false,
-      responsive:{
-        320:{
-          slideBy: 1,
-          items:1
-        },
-        768:{
-          slideBy: 1,
-          items:3
-        },
-        992:{
-          slideBy: 1,
-          items:5
-        }
-      }
-    });
+  
     var owl = $('.owl-carousel.categorySlider');
       owl.owlCarousel({
         loop:true,
@@ -296,4 +267,6 @@ $( "#price-amount-2" ).val( "$" + $( "#price-range" ).slider( "values", 1 ));
   });
 
   $("[data-toggle=tooltip]").tooltip();
+
+
 });
