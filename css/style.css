@@ -5046,7 +5046,7 @@ footer .color-bar {
 
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
-  background-image: url("../img/home/countup.jpg");
+  background-image: url("../img/banner/banner-leishmania-resized.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center !important;
@@ -5092,7 +5092,7 @@ footer .color-bar {
   color: #ffffff;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
-  width: 129px;
+  width: 140px;
   display: inline-block;
 }
 
