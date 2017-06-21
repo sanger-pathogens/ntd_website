@@ -116,7 +116,7 @@
 .color-3,
 .block .list-inline.btn-red .btn-link:hover,
 .courseList .media-body .list-inline.btnPart.btn-red > li a.btn-link:hover {
-  color: #ea7066 !important;
+  color: #BD002F !important;
 }
 
 a,
@@ -151,12 +151,12 @@ a,
 .checkoutInfo .checkbox a:hover,
 .lowerPartTitle h4,
 .product-review .tab-content h3 {
-  color: #ea7066;
+  color: #BD002F;
 }
 
 .bg-color-3,
 .courseList .media-body .list-inline.btnPart.btn-red > li a.btn-primary:hover {
-  background-color: #ea7066 !important;
+  background-color: #BD002F !important;
 }
 
 .btn-primary,
@@ -192,17 +192,17 @@ a,
 .continueBtnArea .btn-primary:hover,
 .dropGeneral.bg-color-3 .sbHolder,
 .progress-wizard > .progress-wizard-step.complete > .progress-wizard-dot i {
-  background-color: #ea7066;
+  background-color: #BD002F;
 }
 
 @media (min-width: 768px) {
   .progress-wizard > .progress-wizard-step > .progress > .progress-bar {
-    background: #ea7066;
+    background: #BD002F;
   }
 }
 
 .border-color-3 {
-  border-color: #ea7066 !important;
+  border-color: #BD002F !important;
 }
 
 .navbar-default .navbar-toggle,
@@ -212,35 +212,35 @@ a,
 .progress-wizard > .progress-wizard-step > .progress-wizard-dot,
 .dropGeneral.border-color-3 .sbHolder,
 .dropGeneral.bg-color-3 .sbHolder {
-  border-color: #ea7066;
+  border-color: #BD002F;
 }
 
 .cart-dropdown .dropdown-menu {
-  border-top-color: #ea7066;
+  border-top-color: #BD002F;
 }
 
 .navbar-nav > li.color-3.dropdown.singleDrop .dropdown-menu .dropdown-menu:after {
-  border-right-color: #ea7066;
+  border-right-color: #BD002F;
 }
 
 .navbar-nav > li.color-3.dropdown a:after {
-  border-bottom-color: #ea7066;
+  border-bottom-color: #BD002F;
 }
 
 @media (min-width: 768px) {
   .navbar-nav > li.color-3 > a > span,
   .navbar-nav > li.color-3.singleDrop > .dropdown-menu,
   .navbar-nav > li.color-3.singleDrop > .dropdown-menu li .dropdown-menu {
-    border-color: #ea7066;
+    border-color: #BD002F;
   }
 }
 
 .tabCommon.tabLeft .nav li.active a:after {
-  border-color: transparent transparent transparent #ea7066;
+  border-color: transparent transparent transparent #BD002F;
 }
 
 .cart-dropdown .dropdown-menu:before {
-  border-bottom-color: #ea7066;
+  border-bottom-color: #BD002F;
 }
 
 .sectionTitle h2 span.bg-color-3,

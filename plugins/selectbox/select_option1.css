@@ -193,7 +193,7 @@
 	text-transform: capitalize;
 }
 .lightDrop .sbOptions a:hover{
-    color: #ea7066 !important;
+    color: #BD002F !important;
     background-color: #f5f5f5;
 }
 .lightDrop.addCircle .sbHolder{
@@ -277,15 +277,15 @@
 	border-radius: 0;
 }
 .dropGeneral.border-color-3 .sbHolder{
-	border-color: #ea7066;
+	border-color: #BD002F;
 }
 .dropGeneral.grayBg .sbHolder{
 	background-color: #f8f8f8;
 	border-color: #f8f8f8;
 }
 .dropGeneral.bg-color-3 .sbHolder{
-	background-color: #ea7066;
-	border-color: #ea7066;
+	background-color: #BD002F;
+	border-color: #BD002F;
 }
 .dropGeneral.bg-color-2 .sbHolder{
 	background-color: #b5d56a;
@@ -375,7 +375,7 @@
 	text-transform: capitalize;
 }
 .dropGeneral .sbOptions a:hover{
-    color: #ea7066 !important;
+    color: #BD002F !important;
     background-color: #f5f5f5;
 }
 .dropGeneral.addCircle .sbHolder{
