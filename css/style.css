@@ -1033,7 +1033,7 @@ aside {
 }
 
 .pageTitleSection {
-  background-image: url("../img/banner/banner-leishmania-short.jpg");
+  background-image: url("../img/banner/banner-trichuris-muris1.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -3254,6 +3254,14 @@ footer .color-bar {
 .footerInfo p {
   margin-bottom: 30px;
   color: #d8e3f0;
+}
+
+.footerInfo a {
+  color: #d8e3f0;
+}
+
+.footerInfo a:hover {
+  color: #D07B00;
 }
 
 .footerInfo .input-group {
