@@ -950,7 +950,7 @@ aside {
 
 /*=== 2.2 SECTION TITLE ===*/
 @media (min-width: 320px) {
-  .whiteSection, .mainContent, .lightSection, .colorSection {
+  .whiteSection, .mainContent, .lightSection, .colorSection, .mapSection, .ntdSection {
     padding: 50px 0;
   }
 }
@@ -959,9 +959,13 @@ aside {
   .whiteSection, .mainContent, .lightSection, .colorSection {
     padding: 100px 0;
   }
+
+  .ntdSection {
+    padding: 50px 0;
+  }
 }
 
-.whiteSection, .mainContent {
+.whiteSection, .mainContent, .mapSection, .ntdSection {
   background-color: #ffffff;
 }
 
@@ -4402,6 +4406,7 @@ footer .color-bar {
   padding-bottom: 80px;
 }
 
+
 .sticker {
   position: absolute;
   left: 20px;
@@ -4885,7 +4890,7 @@ footer .color-bar {
 @media (min-width: 992px) {
   .teachersInfo .list-inline li a {
     width: 28px;
-    height: 28px;
+    height: auto;
     line-height: 28px;
     font-size: 14px;
   }
@@ -4893,23 +4898,31 @@ footer .color-bar {
 
 .teachersProfession, .professionDetails {
   width: 100%;
-  height: 50px;
-  border-radius: 7px;
-  text-indent: 30px;
-  line-height: 50px;
-  font-weight: 600;
 }
 
 .teachersProfession {
+  height: 50px;
   color: #ffffff;
   text-transform: uppercase;
+  text-indent: 30px;
+  font-weight: 600;
+  border-radius: 7px;  line-height: 50px;
 }
 
 .professionDetails {
+  height: auto;
   background-color: #ffffff;
-  margin-bottom: 15px;
-  font-size: 20px;
-  text-transform: capitalize;
+  margin: 15px 0;
+  padding: 0 30px;
+  font-size: 15px;
+}
+
+.professionDetails ol {
+  background-color: #ffffff;
+  margin: 15px 0;
+  text-indent: 30px;
+  padding: 0 30px;
+  font-size: 15px;
 }
 
 /*=== 5.8 EVENT SECTION ===*/
@@ -5312,9 +5325,13 @@ footer .color-bar {
   display: block;
 }
 
-.mapArea #map {
+.mapArea #templateMap {
   width: 100%;
   height: 420px;
+}
+
+.mapSection {
+  pas
 }
 
 /*=== 5.13 HOME CONTACT SECTION ===*/
