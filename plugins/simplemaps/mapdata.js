@@ -1,47 +1,46 @@
-var simplemaps_usmap_mapdata={
+var simplemaps_worldmap_mapdata={
   main_settings: {
-    //General settings
-		width: "responsive", //'700' or 'responsive'
+   //General settings
+    width: "responsive", //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
     popups: "detect",
     
-		//State defaults
-		state_description: "State description",
-    state_color: "#88A4BC",
-    state_hover_color: "#3B729F",
-    state_url: "http://simplemaps.com",
+    //State defaults
+    state_description: "State description",
+    state_color: "#074887",
+    state_hover_color: "#2C70B2",
+    state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
-    all_states_zoomable: "no",
+    all_states_zoomable: "yes",
     
-		//Location defaults
-		location_description: "Location description",
-    location_color: "#FF0067",
+    //Location defaults
+    location_description: "Location description",
+    location_color: "#BD002F",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: 25,
-    location_type: "square",
+    location_size: "25",
+    location_type: "marker",
+    location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
     location_border: 2,
     location_hover_border: 2.5,
     all_locations_inactive: "no",
     all_locations_hidden: "no",
     
-		//Label defaults
-		label_color: "#d5ddec",
+    //Label defaults
+    label_color: "#d5ddec",
     label_hover_color: "#d5ddec",
     label_size: 22,
     label_font: "Arial",
     hide_labels: "no",
    
-		//Zoom settings
-		manual_zoom: "no",
+    //Zoom settings
+    zoom: "yes",
     back_image: "no",
-    arrow_color: "#cecece",
-    arrow_color_border: "#808080",
     initial_back: "no",
     initial_zoom: -1,
     initial_zoom_solo: "no",
@@ -51,752 +50,1152 @@ var simplemaps_usmap_mapdata={
     zoom_percentage: 0.99,
     zoom_time: 0.5,
     
-		//Popup settings
-		popup_color: "white",
+    //Popup settings
+    popup_color: "white",
     popup_opacity: 0.9,
     popup_shadow: 1,
     popup_corners: 5,
     popup_font: "12px/1.5 Verdana, Arial, Helvetica, sans-serif",
     popup_nocss: "no",
     
-		//Advanced settings
-		div: "map",
+    //Advanced settings
+    div: "map",
     auto_load: "yes",
-    rotate: "0",
-    url_new_tab: "no",
+    url_new_tab: "yes",
     images_directory: "default",
-    import_labels: "no",
     fade_time: 0.1,
-    link_text: "View Website"
+    link_text: "View Website",
+    state_image_url: "",
+    state_image_position: "",
+    location_image_url: ""
   },
   state_specific: {
-    HI: {
-      name: "Hawaii",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AF: {
+      name: "Afghanistan",
+      description: " "
     },
-    AK: {
-      name: "Alaska",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    FL: {
-      name: "Florida",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      inactive: "no"
-    },
-    NH: {
-      name: "New Hampshire",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    VT: {
-      name: "Vermont",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    ME: {
-      name: "Maine",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    RI: {
-      name: "Rhode Island",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    NY: {
-      name: "New York",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    PA: {
-      name: "Pennsylvania",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    NJ: {
-      name: "New Jersey",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    DE: {
-      name: "Delaware",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    MD: {
-      name: "Maryland",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    VA: {
-      name: "Virginia",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    WV: {
-      name: "West Virginia",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    OH: {
-      name: "Ohio",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    IN: {
-      name: "Indiana",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    IL: {
-      name: "Illinois",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    CT: {
-      name: "Connecticut",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    WI: {
-      name: "Wisconsin",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    NC: {
-      name: "North Carolina",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    DC: {
-      name: "District of Columbia",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    MA: {
-      name: "Massachusetts",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    TN: {
-      name: "Tennessee",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    AR: {
-      name: "Arkansas",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    MO: {
-      name: "Missouri",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    GA: {
-      name: "Georgia",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    SC: {
-      name: "South Carolina",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    KY: {
-      name: "Kentucky",
-      description: "default",
-      color: "default",
-      zoomable: "no",
-      hover_color: "default",
-      url: "default"
+    AO: {
+      name: "Angola",
+      description: " "
     },
     AL: {
-      name: "Alabama",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Albania",
+      description: " "
     },
-    LA: {
-      name: "Louisiana",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AE: {
+      name: "United Arab Emirates",
+      description: " "
     },
-    MS: {
-      name: "Mississippi",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AR: {
+      name: "Argentina",
+      description: " "
     },
-    IA: {
-      name: "Iowa",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AM: {
+      name: "Armenia",
+      description: " "
     },
-    MN: {
-      name: "Minnesota",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AU: {
+      name: "Australia",
+      description: " "
     },
-    OK: {
-      name: "Oklahoma",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    TX: {
-      name: "Texas",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    NM: {
-      name: "New Mexico",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    KS: {
-      name: "Kansas",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    NE: {
-      name: "Nebraska",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    SD: {
-      name: "South Dakota",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    ND: {
-      name: "North Dakota",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    WY: {
-      name: "Wyoming",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    MT: {
-      name: "Montana",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    CO: {
-      name: "Colorado",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
-    },
-    UT: {
-      name: "Utah",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    AT: {
+      name: "Austria",
+      description: " "
     },
     AZ: {
-      name: "Arizona",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Azerbaijan",
+      description: " "
     },
-    NV: {
-      name: "Nevada",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    BI: {
+      name: "Burundi",
+      description: " "
     },
-    OR: {
-      name: "Oregon",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    BE: {
+      name: "Belgium",
+      description: " "
     },
-    WA: {
-      name: "Washington",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    BJ: {
+      name: "Benin",
+      description: " "
+    },
+    BF: {
+      name: "Burkina Faso",
+      description: " "
+    },
+    BD: {
+      name: "Bangladesh",
+      description: " "
+    },
+    BG: {
+      name: "Bulgaria",
+      description: " "
+    },
+    BH: {
+      name: "Bahrain",
+      description: " "
+    },
+    BA: {
+      name: "Bosnia and Herzegovina",
+      description: " "
+    },
+    BY: {
+      name: "Belarus",
+      description: " "
+    },
+    BZ: {
+      name: "Belize",
+      description: " "
+    },
+    BO: {
+      name: "Bolivia",
+      description: " "
+    },
+    BR: {
+      name: "Brazil",
+      description: " "
+    },
+    BN: {
+      name: "Brunei Darussalam",
+      description: " "
+    },
+    BT: {
+      name: "Bhutan",
+      description: " "
+    },
+    BW: {
+      name: "Botswana",
+      description: " "
+    },
+    CF: {
+      name: "Central African Republic",
+      description: " "
     },
     CA: {
-      name: "California",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Canada",
+      description: " "
     },
-    MI: {
-      name: "Michigan",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+    CH: {
+      name: "Switzerland",
+      description: " "
+    },
+    CL: {
+      name: "Chile",
+      description: " "
+    },
+    CN: {
+      name: "China",
+      description: " "
+    },
+    CI: {
+      name: "Côte d'Ivoire",
+      description: " "
+    },
+    CM: {
+      name: "Cameroon",
+      description: " "
+    },
+    CD: {
+      name: "Democratic Republic of the Congo",
+      description: " "
+    },
+    CG: {
+      name: "Republic of Congo",
+      description: " "
+    },
+    CO: {
+      name: "Colombia",
+      description: " "
+    },
+    CR: {
+      name: "Costa Rica",
+      description: " "
+    },
+    CU: {
+      name: "Cuba",
+      description: " "
+    },
+    CZ: {
+      name: "Czech Republic",
+      description: " "
+    },
+    DE: {
+      name: "Germany",
+      description: " "
+    },
+    DJ: {
+      name: "Djibouti",
+      description: " "
+    },
+    DK: {
+      name: "Denmark",
+      description: " "
+    },
+    DO: {
+      name: "Dominican Republic",
+      description: " "
+    },
+    DZ: {
+      name: "Algeria",
+      description: " "
+    },
+    EC: {
+      name: "Ecuador",
+      description: " "
+    },
+    EG: {
+      name: "Egypt",
+      description: " "
+    },
+    ER: {
+      name: "Eritrea",
+      description: " "
+    },
+    EE: {
+      name: "Estonia",
+      description: " "
+    },
+    ET: {
+      name: "Ethiopia",
+      description: " "
+    },
+    FI: {
+      name: "Finland",
+      description: " "
+    },
+    FJ: {
+      name: "Fiji",
+      description: " "
+    },
+    GA: {
+      name: "Gabon",
+      description: " "
+    },
+    GB: {
+      name: "United Kingdom",
+      description: " "
+    },
+    GE: {
+      name: "Georgia",
+      description: " "
+    },
+    GH: {
+      name: "Ghana",
+      description: " "
+    },
+    GN: {
+      name: "Guinea",
+      description: " "
+    },
+    GM: {
+      name: "The Gambia",
+      description: " "
+    },
+    GW: {
+      name: "Guinea-Bissau",
+      description: " "
+    },
+    GQ: {
+      name: "Equatorial Guinea",
+      description: " "
+    },
+    GR: {
+      name: "Greece",
+      description: " "
+    },
+    GL: {
+      name: "Greenland",
+      description: " "
+    },
+    GT: {
+      name: "Guatemala",
+      description: " "
+    },
+    GY: {
+      name: "Guyana",
+      description: " "
+    },
+    HN: {
+      name: "Honduras",
+      description: " "
+    },
+    HR: {
+      name: "Croatia",
+      description: " "
+    },
+    HT: {
+      name: "Haiti",
+      description: " "
+    },
+    HU: {
+      name: "Hungary",
+      description: " "
     },
     ID: {
-      name: "Idaho",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default"
+      name: "Indonesia",
+      description: " "
     },
-    GU: {
-      name: "Guam",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      hide: "yes"
+    IN: {
+      name: "India",
+      description: " "
     },
-    VI: {
-      name: "Virgin Islands",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      hide: "yes"
+    IE: {
+      name: "Ireland",
+      description: " "
+    },
+    IR: {
+      name: "Iran",
+      description: " "
+    },
+    IQ: {
+      name: "Iraq",
+      description: " "
+    },
+    IS: {
+      name: "Iceland",
+      description: " "
+    },
+    IL: {
+      name: "Israel",
+      description: " "
+    },
+    IT: {
+      name: "Italy",
+      description: " "
+    },
+    JM: {
+      name: "Jamaica",
+      description: " "
+    },
+    JO: {
+      name: "Jordan",
+      description: " "
+    },
+    JP: {
+      name: "Japan",
+      description: " "
+    },
+    KZ: {
+      name: "Kazakhstan",
+      description: " "
+    },
+    KE: {
+      name: "Kenya",
+      description: " "
+    },
+    KG: {
+      name: "Kyrgyzstan",
+      description: " "
+    },
+    KH: {
+      name: "Cambodia",
+      description: " "
+    },
+    KR: {
+      name: "Republic of Korea",
+      description: " "
+    },
+    XK: {
+      name: "Kosovo",
+      description: " "
+    },
+    KW: {
+      name: "Kuwait",
+      description: " "
+    },
+    LA: {
+      name: "Lao PDR",
+      description: " "
+    },
+    LB: {
+      name: "Lebanon",
+      description: " "
+    },
+    LR: {
+      name: "Liberia",
+      description: " "
+    },
+    LY: {
+      name: "Libya",
+      description: " "
+    },
+    LK: {
+      name: "Sri Lanka",
+      description: " "
+    },
+    LS: {
+      name: "Lesotho",
+      description: " "
+    },
+    LT: {
+      name: "Lithuania",
+      description: " "
+    },
+    LU: {
+      name: "Luxembourg",
+      description: " "
+    },
+    LV: {
+      name: "Latvia",
+      description: " "
+    },
+    MA: {
+      name: "Morocco",
+      description: " "
+    },
+    MD: {
+      name: "Moldova",
+      description: " "
+    },
+    MG: {
+      name: "Madagascar",
+      description: " "
+    },
+    MX: {
+      name: "Mexico",
+      description: " "
+    },
+    MK: {
+      name: "Macedonia",
+      description: " "
+    },
+    ML: {
+      name: "Mali",
+      description: " "
+    },
+    MM: {
+      name: "Myanmar",
+      description: " "
+    },
+    ME: {
+      name: "Montenegro",
+      description: " "
+    },
+    MN: {
+      name: "Mongolia",
+      description: " "
+    },
+    MZ: {
+      name: "Mozambique",
+      description: " "
+    },
+    MR: {
+      name: "Mauritania",
+      description: " "
+    },
+    MW: {
+      name: "Malawi",
+      description: " "
+    },
+    MY: {
+      name: "Malaysia",
+      description: " "
+    },
+    NA: {
+      name: "Namibia",
+      description: " "
+    },
+    NE: {
+      name: "Niger",
+      description: " "
+    },
+    NG: {
+      name: "Nigeria",
+      description: " "
+    },
+    NI: {
+      name: "Nicaragua",
+      description: " "
+    },
+    NL: {
+      name: "Netherlands",
+      description: " "
+    },
+    NO: {
+      name: "Norway",
+      description: " "
+    },
+    NP: {
+      name: "Nepal",
+      description: " "
+    },
+    NZ: {
+      name: "New Zealand",
+      description: " "
+    },
+    OM: {
+      name: "Oman",
+      description: " "
+    },
+    PK: {
+      name: "Pakistan",
+      description: " "
+    },
+    PA: {
+      name: "Panama",
+      description: " "
+    },
+    PE: {
+      name: "Peru",
+      description: " "
+    },
+    PH: {
+      name: "Philippines",
+      description: " "
+    },
+    PG: {
+      name: "Papua New Guinea",
+      description: " "
+    },
+    PL: {
+      name: "Poland",
+      description: " "
+    },
+    KP: {
+      name: "Dem. Rep. Korea",
+      description: " "
+    },
+    PT: {
+      name: "Portugal",
+      description: " "
+    },
+    PY: {
+      name: "Paraguay",
+      description: " "
+    },
+    PS: {
+      name: "Palestine",
+      description: " "
+    },
+    QA: {
+      name: "Qatar",
+      description: " "
+    },
+    RO: {
+      name: "Romania",
+      description: " "
+    },
+    RU: {
+      name: "Russia",
+      description: " "
+    },
+    RW: {
+      name: "Rwanda",
+      description: " "
+    },
+    EH: {
+      name: "Western Sahara",
+      description: " "
+    },
+    SA: {
+      name: "Saudi Arabia",
+      description: " "
+    },
+    SD: {
+      name: "Sudan",
+      description: " "
+    },
+    SS: {
+      name: "South Sudan",
+      description: " "
+    },
+    SN: {
+      name: "Senegal",
+      description: " "
+    },
+    SL: {
+      name: "Sierra Leone",
+      description: " "
+    },
+    SV: {
+      name: "El Salvador",
+      description: " "
+    },
+    RS: {
+      name: "Serbia",
+      description: " "
+    },
+    SR: {
+      name: "Suriname",
+      description: " "
+    },
+    SK: {
+      name: "Slovakia",
+      description: " "
+    },
+    SI: {
+      name: "Slovenia",
+      description: " "
+    },
+    SE: {
+      name: "Sweden",
+      description: " "
+    },
+    SZ: {
+      name: "Swaziland",
+      description: " "
+    },
+    SY: {
+      name: "Syria",
+      description: " "
+    },
+    TD: {
+      name: "Chad",
+      description: " "
+    },
+    TG: {
+      name: "Togo",
+      description: " "
+    },
+    TH: {
+      name: "Thailand",
+      description: " "
+    },
+    TJ: {
+      name: "Tajikistan",
+      description: " "
+    },
+    TM: {
+      name: "Turkmenistan",
+      description: " "
+    },
+    TL: {
+      name: "Timor-Leste",
+      description: " "
+    },
+    TN: {
+      name: "Tunisia",
+      description: " "
+    },
+    TR: {
+      name: "Turkey",
+      description: " "
+    },
+    TW: {
+      name: "Taiwan",
+      description: " "
+    },
+    TZ: {
+      name: "Tanzania",
+      description: " "
+    },
+    UG: {
+      name: "Uganda",
+      description: " "
+    },
+    UA: {
+      name: "Ukraine",
+      description: " "
+    },
+    UY: {
+      name: "Uruguay",
+      description: " "
+    },
+    US: {
+      name: "United States",
+      description: " "
+    },
+    UZ: {
+      name: "Uzbekistan",
+      description: " "
+    },
+    VE: {
+      name: "Venezuela",
+      description: " "
+    },
+    VN: {
+      name: "Vietnam",
+      description: " "
+    },
+    VU: {
+      name: "Vanuatu",
+      description: " "
+    },
+    YE: {
+      name: "Yemen",
+      description: " "
+    },
+    ZA: {
+      name: "South Africa",
+      description: " "
+    },
+    ZM: {
+      name: "Zambia",
+      description: " "
+    },
+    ZW: {
+      name: "Zimbabwe",
+      description: " "
+    },
+    SO: {
+      name: "Somalia",
+      description: " "
+    },
+    GF: {
+      name: "France",
+      description: " "
+    },
+    FR: {
+      name: "France",
+      description: " "
+    },
+    ES: {
+      name: "Spain",
+      description: " "
+    },
+    AW: {
+      name: "Aruba",
+      description: " "
+    },
+    AI: {
+      name: "Anguilla",
+      description: " "
+    },
+    AD: {
+      name: "Andorra",
+      description: " "
+    },
+    AG: {
+      name: "Antigua and Barbuda",
+      description: " "
+    },
+    BS: {
+      name: "Bahamas",
+      description: " "
+    },
+    BM: {
+      name: "Bermuda",
+      description: " "
+    },
+    BB: {
+      name: "Barbados",
+      description: " "
+    },
+    KM: {
+      name: "Comoros",
+      description: " "
+    },
+    CV: {
+      name: "Cape Verde",
+      description: " "
+    },
+    KY: {
+      name: "Cayman Islands",
+      description: " "
+    },
+    DM: {
+      name: "Dominica",
+      description: " "
+    },
+    FK: {
+      name: "Falkland Islands",
+      description: " "
+    },
+    FO: {
+      name: "Faeroe Islands",
+      description: " "
+    },
+    GD: {
+      name: "Grenada",
+      description: " "
+    },
+    HK: {
+      name: "Hong Kong",
+      description: " "
+    },
+    KN: {
+      name: "Saint Kitts and Nevis",
+      description: " "
+    },
+    LC: {
+      name: "Saint Lucia",
+      description: " "
+    },
+    LI: {
+      name: "Liechtenstein",
+      description: " "
+    },
+    MF: {
+      name: "Saint Martin (French)",
+      description: " "
+    },
+    MV: {
+      name: "Maldives",
+      description: " "
+    },
+    MT: {
+      name: "Malta",
+      description: " "
+    },
+    MS: {
+      name: "Montserrat",
+      description: " "
+    },
+    MU: {
+      name: "Mauritius",
+      description: " "
+    },
+    NC: {
+      name: "New Caledonia",
+      description: " "
+    },
+    NR: {
+      name: "Nauru",
+      description: " "
+    },
+    PN: {
+      name: "Pitcairn Islands",
+      description: " "
     },
     PR: {
       name: "Puerto Rico",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      hide: "yes"
+      description: " "
     },
-    AS: {
-      name: "American Samoa",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      hide: "yes"
+    PF: {
+      name: "French Polynesia",
+      description: " "
     },
-    MP: {
-      name: "Northern Mariana Islands",
-      description: "default",
-      color: "default",
-      hover_color: "default",
-      url: "default",
-      hide: "yes"
+    SG: {
+      name: "Singapore",
+      description: " "
+    },
+    SB: {
+      name: "Solomon Islands",
+      description: " "
+    },
+    ST: {
+      name: "São Tomé and Principe",
+      description: " "
+    },
+    SX: {
+      name: "Saint Martin (Dutch)",
+      description: " "
+    },
+    SC: {
+      name: "Seychelles",
+      description: " "
+    },
+    TC: {
+      name: "Turks and Caicos Islands",
+      description: " "
+    },
+    TO: {
+      name: "Tonga",
+      description: " "
+    },
+    TT: {
+      name: "Trinidad and Tobago",
+      description: " "
+    },
+    VC: {
+      name: "Saint Vincent and the Grenadines",
+      description: " "
+    },
+    VG: {
+      name: "British Virgin Islands",
+      description: " "
+    },
+    VI: {
+      name: "United States Virgin Islands",
+      description: " "
+    },
+    CY: {
+      name: "Cyprus",
+      description: " "
+    },
+    RE: {
+      name: "Reunion (France)",
+      description: " "
+    },
+    YT: {
+      name: "Mayotte (France)",
+      description: " "
+    },
+    MQ: {
+      name: "Martinique (France)",
+      description: " "
+    },
+    GP: {
+      name: "Guadeloupe (France)",
+      description: " "
+    },
+    CW: {
+      name: "Curaco (Netherlands)",
+      description: " "
+    },
+    IC: {
+      name: "Canary Islands (Spain)",
+      description: " "
     }
   },
   locations: {
     "0": {
-      name: "New York",
-      lat: 40.71,
-      lng: -74,
-      description: "default",
-      color: "default",
-      url: "default",
-      type: "default",
-      size: "default"
+      lat: 51.506,
+      lng: -0.127,
+      name: "Chlamydia"
     },
     "1": {
-      name: "Anchorage",
-      lat: 61.2180556,
-      lng: -149.9002778,
-      color: "default",
-      type: "circle"
+      lat: 32.778,
+      lng: -96.795,
+      name: "Typhoid"
+    },
+    "2": {
+      lat: 22.336,
+      lng: 114.187,
+      name: "Schistosoma",
+      color: "#D09F00"
+    },
+    "3": {
+      lat: 6.534,
+      lng: 3.382,
+      name: "Cholera"
+    },
+    paris: {
+      lat: 0.325,
+      lng: 32.587,
+      name: "Whipworm",
+      color: "#D09F00",
+      description: "Thomas Crellen<br /><em>Uganda</em>"
     }
   },
-  labels: {
-    NH: {
-      parent_id: "NH",
-      x: "932",
-      y: "183",
-      pill: "yes",
-      width: 45,
-      display: "all"
+  labels: {},
+  regions: {
+    "0": {
+      name: "North America",
+      states: [
+        "MX",
+        "CA",
+        "US",
+        "GL",
+        "BM"
+      ]
     },
-    VT: {
-      parent_id: "VT",
-      x: "883",
-      y: "243",
-      pill: "yes",
-      width: 45,
-      display: "all"
+    "1": {
+      name: "South America",
+      states: [
+        "EC",
+        "AR",
+        "VE",
+        "BR",
+        "CO",
+        "BO",
+        "PE",
+        "BZ",
+        "CL",
+        "CR",
+        "CU",
+        "DO",
+        "SV",
+        "GT",
+        "GY",
+        "GF",
+        "HN",
+        "NI",
+        "PA",
+        "PY",
+        "PR",
+        "SR",
+        "UY",
+        "JM",
+        "HT",
+        "BS",
+        "FK",
+        "AI",
+        "AG",
+        "AW",
+        "BB",
+        "VG",
+        "KY",
+        "DM",
+        "MQ",
+        "LC",
+        "VC",
+        "GD",
+        "GP",
+        "MS",
+        "TC",
+        "SX",
+        "MF",
+        "KN",
+        "CW"
+      ]
     },
-    RI: {
-      parent_id: "RI",
-      x: "932",
-      y: "273",
-      pill: "yes",
-      width: 45,
-      display: "all"
+    "2": {
+      name: "Europe",
+      states: [
+        "IT",
+        "NL",
+        "NO",
+        "DK",
+        "IE",
+        "GB",
+        "RO",
+        "DE",
+        "FR",
+        "AL",
+        "AM",
+        "AT",
+        "BY",
+        "BE",
+        "LU",
+        "BG",
+        "CZ",
+        "EE",
+        "GE",
+        "GR",
+        "HU",
+        "IS",
+        "LV",
+        "LT",
+        "MD",
+        "PL",
+        "PT",
+        "RS",
+        "SI",
+        "HR",
+        "BA",
+        "ME",
+        "MK",
+        "SK",
+        "ES",
+        "FI",
+        "SE",
+        "CH",
+        "TR",
+        "CY",
+        "UA",
+        "XK",
+        "MT",
+        "FO"
+      ]
     },
-    NJ: {
-      parent_id: "NJ",
-      x: "883",
-      y: "273",
-      pill: "yes",
-      width: 45,
-      display: "all"
+    "3": {
+      name: "Africa and the Middle East",
+      states: [
+        "QA",
+        "BH",
+        "SA",
+        "AE",
+        "SY",
+        "OM",
+        "KW",
+        "PK",
+        "AZ",
+        "AF",
+        "IR",
+        "IQ",
+        "IL",
+        "PS",
+        "JO",
+        "LB",
+        "YE",
+        "TJ",
+        "TM",
+        "UZ",
+        "KG",
+        "NE",
+        "AO",
+        "EG",
+        "TN",
+        "GA",
+        "DZ",
+        "LY",
+        "CG",
+        "GQ",
+        "BJ",
+        "BW",
+        "BF",
+        "BI",
+        "CM",
+        "CF",
+        "TD",
+        "CI",
+        "CD",
+        "DJ",
+        "ET",
+        "GM",
+        "GH",
+        "GN",
+        "GW",
+        "KE",
+        "LS",
+        "LR",
+        "MG",
+        "MW",
+        "ML",
+        "MA",
+        "MR",
+        "MZ",
+        "NA",
+        "NG",
+        "ER",
+        "RW",
+        "SN",
+        "SL",
+        "SO",
+        "ZA",
+        "SD",
+        "SS",
+        "SZ",
+        "TZ",
+        "TG",
+        "UG",
+        "EH",
+        "ZM",
+        "ZW",
+        "RE",
+        "KM",
+        "SC",
+        "MU",
+        "CV",
+        "IC",
+        "ST",
+        "YT"
+      ]
     },
-    DE: {
-      parent_id: "DE",
-      x: "883",
-      y: "303",
-      pill: "yes",
-      width: 45,
-      display: "all"
+    "4": {
+      name: "South Asia",
+      states: [
+        "SG",
+        "TW",
+        "IN",
+        "AU",
+        "MY",
+        "NP",
+        "NZ",
+        "TH",
+        "BN",
+        "JP",
+        "VN",
+        "LK",
+        "SB",
+        "FJ",
+        "BD",
+        "BT",
+        "KH",
+        "LA",
+        "MM",
+        "KP",
+        "PG",
+        "PH",
+        "KR",
+        "ID",
+        "CN",
+        "MV",
+        "NC",
+        "VU",
+        "NR"
+      ]
     },
-    MD: {
-      parent_id: "MD",
-      x: "932",
-      y: "303",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    DC: {
-      parent_id: "DC",
-      x: "884",
-      y: "332",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    MA: {
-      parent_id: "MA",
-      x: "932",
-      y: "213",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    CT: {
-      parent_id: "CT",
-      x: "932",
-      y: "243",
-      pill: "yes",
-      width: 45,
-      display: "all"
-    },
-    HI: {
-      parent_id: "HI",
-      x: 305,
-      y: 565,
-      pill: "yes"
-    },
-    AK: {
-      parent_id: "AK",
-      x: "113",
-      y: "495"
-    },
-    FL: {
-      parent_id: "FL",
-      x: "773",
-      y: "510"
-    },
-    ME: {
-      parent_id: "ME",
-      x: "893",
-      y: "85"
-    },
-    NY: {
-      parent_id: "NY",
-      x: "815",
-      y: "158"
-    },
-    PA: {
-      parent_id: "PA",
-      x: "786",
-      y: "210"
-    },
-    VA: {
-      parent_id: "VA",
-      x: "790",
-      y: "282"
-    },
-    WV: {
-      parent_id: "WV",
-      x: "744",
-      y: "270"
-    },
-    OH: {
-      parent_id: "OH",
-      x: "700",
-      y: "240"
-    },
-    IN: {
-      parent_id: "IN",
-      x: "650",
-      y: "250"
-    },
-    IL: {
-      parent_id: "IL",
-      x: "600",
-      y: "250"
-    },
-    WI: {
-      parent_id: "WI",
-      x: "575",
-      y: "155"
-    },
-    NC: {
-      parent_id: "NC",
-      x: "784",
-      y: "326"
-    },
-    TN: {
-      parent_id: "TN",
-      x: "655",
-      y: "340"
-    },
-    AR: {
-      parent_id: "AR",
-      x: "548",
-      y: "368"
-    },
-    MO: {
-      parent_id: "MO",
-      x: "548",
-      y: "293"
-    },
-    GA: {
-      parent_id: "GA",
-      x: "718",
-      y: "405"
-    },
-    SC: {
-      parent_id: "SC",
-      x: "760",
-      y: "371"
-    },
-    KY: {
-      parent_id: "KY",
-      x: "680",
-      y: "300"
-    },
-    AL: {
-      parent_id: "AL",
-      x: "655",
-      y: "405"
-    },
-    LA: {
-      parent_id: "LA",
-      x: "550",
-      y: "435"
-    },
-    MS: {
-      parent_id: "MS",
-      x: "600",
-      y: "405"
-    },
-    IA: {
-      parent_id: "IA",
-      x: "525",
-      y: "210"
-    },
-    MN: {
-      parent_id: "MN",
-      x: "506",
-      y: "124"
-    },
-    OK: {
-      parent_id: "OK",
-      x: "460",
-      y: "360"
-    },
-    TX: {
-      parent_id: "TX",
-      x: "425",
-      y: "435"
-    },
-    NM: {
-      parent_id: "NM",
-      x: "305",
-      y: "365"
-    },
-    KS: {
-      parent_id: "KS",
-      x: "445",
-      y: "290"
-    },
-    NE: {
-      parent_id: "NE",
-      x: "420",
-      y: "225"
-    },
-    SD: {
-      parent_id: "SD",
-      x: "413",
-      y: "160"
-    },
-    ND: {
-      parent_id: "ND",
-      x: "416",
-      y: "96"
-    },
-    WY: {
-      parent_id: "WY",
-      x: "300",
-      y: "180"
-    },
-    MT: {
-      parent_id: "MT",
-      x: "280",
-      y: "95"
-    },
-    CO: {
-      parent_id: "CO",
-      x: "320",
-      y: "275"
-    },
-    UT: {
-      parent_id: "UT",
-      x: "223",
-      y: "260"
-    },
-    AZ: {
-      parent_id: "AZ",
-      x: "205",
-      y: "360"
-    },
-    NV: {
-      parent_id: "NV",
-      x: "140",
-      y: "235"
-    },
-    OR: {
-      parent_id: "OR",
-      x: "100",
-      y: "120"
-    },
-    WA: {
-      parent_id: "WA",
-      x: "130",
-      y: "55"
-    },
-    ID: {
-      parent_id: "ID",
-      x: "200",
-      y: "150"
-    },
-    CA: {
-      parent_id: "CA",
-      x: "79",
-      y: "285"
-    },
-    MI: {
-      parent_id: "MI",
-      x: "663",
-      y: "185"
-    },
-    PR: {
-      parent_id: "PR",
-      x: "620",
-      y: "545"
-    },
-    GU: {
-      parent_id: "GU",
-      x: "550",
-      y: "540"
-    },
-    VI: {
-      parent_id: "VI",
-      x: "680",
-      y: "519"
-    },
-    MP: {
-      parent_id: "MP",
-      x: "570",
-      y: "575"
-    },
-    AS: {
-      parent_id: "AS",
-      x: "665",
-      y: "580"
+    "5": {
+      name: "North Asia",
+      states: [
+        "MN",
+        "RU",
+        "KZ"
+      ]
     }
+  },
+  data: {
+    data: {}
   }
 };

@@ -4799,15 +4799,15 @@ footer .color-bar {
   }
 }
 
-.teachersPhoto {
+.diseaseMainImage {
   width: 100%;
 }
 
-.teachersPhoto img {
+.diseaseMainImage img {
   width: 100%;
 }
 
-.teachersInfo h3 {
+.diseaseSection h3 {
   color: #BD002F;
   text-transform: capitalize;
   font-family: 'Dosis', sans-serif;
@@ -4816,52 +4816,52 @@ footer .color-bar {
   margin: 0 0 25px 0;
 }
 
-.teachersInfo p {
+.diseaseSection p {
   margin: 0 0 25px 0;
 }
 
-.teachersInfo .list-inline {
+.diseaseSection .list-inline {
   text-align: left;
 }
 
 @media (min-width: 320px) {
-  .teachersInfo .list-inline {
+  .diseaseSection .list-inline {
     margin-bottom: 20px;
   }
 }
 
 @media (min-width: 768px) {
-  .teachersInfo .list-inline {
+  .diseaseSection .list-inline {
     margin: 0 0 45px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .teachersInfo .list-inline li {
+  .diseaseSection .list-inline li {
     padding: 2px;
   }
 }
 
 @media (min-width: 992px) {
-  .teachersInfo .list-inline li {
+  .diseaseSection .list-inline li {
     padding: 0 2px;
   }
 }
 
 @media (min-width: 1200px) {
-  .teachersInfo .list-inline li {
+  .diseaseSection .list-inline li {
     padding: 0 5px;
   }
 }
 
-.teachersInfo .list-inline li a {
+.diseaseSection .list-inline li a {
   display: block;
   text-align: center;
   border-radius: 100%;
   color: #ffffff;
 }
 
-.teachersInfo .list-inline li a:hover {
+.diseaseSection .list-inline li a:hover {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$value)";
   filter: alpha(opacity=1);
   -moz-opacity: 1;
@@ -4870,7 +4870,7 @@ footer .color-bar {
 }
 
 @media (min-width: 320px) {
-  .teachersInfo .list-inline li a {
+  .diseaseSection .list-inline li a {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -4879,7 +4879,7 @@ footer .color-bar {
 }
 
 @media (min-width: 768px) {
-  .teachersInfo .list-inline li a {
+  .diseaseSection .list-inline li a {
     width: 25px;
     height: 25px;
     line-height: 25px;
@@ -4888,7 +4888,7 @@ footer .color-bar {
 }
 
 @media (min-width: 992px) {
-  .teachersInfo .list-inline li a {
+  .diseaseSection .list-inline li a {
     width: 28px;
     height: auto;
     line-height: 28px;
@@ -4896,11 +4896,11 @@ footer .color-bar {
   }
 }
 
-.teachersProfession, .professionDetails {
+.diseaseHeader, .diseaseDetails {
   width: 100%;
 }
 
-.teachersProfession {
+.diseaseHeader {
   height: 50px;
   color: #ffffff;
   text-transform: uppercase;
@@ -4909,7 +4909,7 @@ footer .color-bar {
   border-radius: 7px;  line-height: 50px;
 }
 
-.professionDetails {
+.diseaseDetails {
   height: auto;
   background-color: #ffffff;
   margin: 15px 0;
@@ -4917,7 +4917,7 @@ footer .color-bar {
   font-size: 15px;
 }
 
-.professionDetails ol {
+.diseaseDetails ol {
   background-color: #ffffff;
   margin: 15px 0;
   text-indent: 30px;
@@ -5067,7 +5067,7 @@ footer .color-bar {
 
 /*=== 5.9 COUNT UP SECTION ===*/
 .countUpSection {
-  background-image: url("../img/banner/banner-leishmania-resized.jpg");
+  background-image: url("../img/countdown/countdown-fieldwork-6.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center !important;
@@ -5564,10 +5564,16 @@ footer .color-bar {
   left: 3px;
 }
 
+.sectionTitle h2 span.bg-color-1,
+.sectionTitle h2 span.bg-color-1:after,
+.sectionTitle h2 span.bg-color-1:before {
+  background-color: #074887 !important;
+}
+
 .sectionTitle h2 span.bg-color-4,
 .sectionTitle h2 span.bg-color-4:after,
 .sectionTitle h2 span.bg-color-4:before {
-  background-color: #9fccdf !important;
+  background-color: #BD002F !important;
 }
 
 .sectionTitle h2 span.bg-color-3,

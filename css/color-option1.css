@@ -139,7 +139,7 @@ a,
 .teamContent.teamAdjust .teamInfo h3 a,
 .teamContent.teamAdjust .teamInfo h3 a:hover,
 .teamStyle .media-body h4 a:hover,
-.teachersInfo h3,
+.diseaseSection h3,
 .eventContent .list-inline.btn-red .btn-primary:hover,
 .isotopeSelector:hover h4,
 .homeContactContent h2,
@@ -151,7 +151,7 @@ a,
 .checkoutInfo .checkbox a:hover,
 .lowerPartTitle h4,
 .product-review .tab-content h3 {
-  color: #D07B00;
+  color: #074887;
 }
 
 .bg-color-3,
@@ -303,7 +303,7 @@ a,
 .sectionTitle h2 span.bg-color-4,
 .sectionTitle h2 span.bg-color-4:after,
 .sectionTitle h2 span.bg-color-4:before {
-  background-color: #ff8b86 !important;
+  background-color: #BD002F !important;
 }
 
 /*================= $color5 ==================*/
