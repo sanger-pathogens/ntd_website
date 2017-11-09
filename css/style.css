@@ -5582,6 +5582,12 @@ footer .color-bar {
   background-color: #ee8d85 !important;
 }
 
+.sectionTitle h2 span.bg-color-6,
+.sectionTitle h2 span.bg-color-6:after,
+.sectionTitle h2 span.bg-color-6:before {
+  background-color: #D09F00 !important;
+}
+
 .footer-2 .footerInfoArea {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
