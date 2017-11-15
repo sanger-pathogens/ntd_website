@@ -1,4 +1,4 @@
-jQuery('.bannercontainerV2 .fullscreenbanner').revolution({
+jQuery('.bannercontainer .fullscreenbanner').revolution({
    delay: 5000,
    startwidth: 1170,
    startheight: 660,
@@ -9,4 +9,4 @@ jQuery('.bannercontainerV2 .fullscreenbanner').revolution({
    navigationStyle: "preview4",
    fullScreenOffsetContainer: "",
    hideTimerBar:"on"
-  });
+});

@@ -59,7 +59,7 @@ $('.cart-dropdown a').on("click",function() {
 });
 
 //============================== Rs-Slider =========================
-  jQuery('.bannercontainerV1 .fullscreenbanner').revolution({
+  jQuery('.bannercontainer .fullscreenbanner').revolution({
    delay: 5000,
    startwidth: 1170,
    startheight: 560,
@@ -73,7 +73,7 @@ $('.cart-dropdown a').on("click",function() {
 
   });
 
-  jQuery('.bannercontainerV3 .fullscreenbanner').revolution({
+  jQuery('.bannercontainer .fullscreenbanner').revolution({
     delay: 5000,
     startwidth: 1170,
     startheight: 500,

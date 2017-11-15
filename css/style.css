@@ -1037,12 +1037,20 @@ aside {
 }
 
 .pageTitleSection {
-  background-image: url("../img/banner/banner-trichuris-muris4.jpg");
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/cholera-sem.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center;
-  color: #ffffff;
+  color: #333;
   padding: 75px 0;
+}
+
+.bacteriaTitleSection {
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/cholera-sem.jpg") !important;
+}
+
+.parasiteTitleSection {
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/leishmaniasis.jpg") !important;
 }
 
 .pageTitleSection .pageTitleInfo {
@@ -4912,7 +4920,7 @@ footer .color-bar {
 .diseaseDetails {
   height: auto;
   background-color: #ffffff;
-  margin: 15px 0;
+  margin: 25px 0;
   padding: 0 30px;
   font-size: 15px;
 }
@@ -5621,77 +5629,77 @@ footer .color-bar {
 }
 
 /*=== 5.1 BANNER ===*/
-.bannercontainerV2 .tp-caption.rs-caption-1,
-.bannercontainerV2 .tp-caption.rs-caption-2,
-.bannercontainerV2 .tp-caption.rs-caption-3 {
+.bannercontainer .tp-caption.rs-caption-1,
+.bannercontainer .tp-caption.rs-caption-2,
+.bannercontainer .tp-caption.rs-caption-3 {
   width: 90%;
 }
 
 @media (min-width: 480px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1,
-  .bannercontainerV2 .tp-caption.rs-caption-2,
-  .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .bannercontainer .tp-caption.rs-caption-1,
+  .bannercontainer .tp-caption.rs-caption-2,
+  .bannercontainer .tp-caption.rs-caption-3 {
     width: 70%;
   }
 }
 
 @media (min-width: 768px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1,
-  .bannercontainerV2 .tp-caption.rs-caption-2,
-  .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .bannercontainer .tp-caption.rs-caption-1,
+  .bannercontainer .tp-caption.rs-caption-2,
+  .bannercontainer .tp-caption.rs-caption-3 {
     width: 60%;
   }
 }
 
 @media (min-width: 1200px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1,
-  .bannercontainerV2 .tp-caption.rs-caption-2,
-  .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .bannercontainer .tp-caption.rs-caption-1,
+  .bannercontainer .tp-caption.rs-caption-2,
+  .bannercontainer .tp-caption.rs-caption-3 {
     width: 50%;
   }
 }
 
-.bannercontainerV2 .tp-caption.rs-caption-1 {
+.bannercontainer .tp-caption.rs-caption-1 {
   color: #ffffff;
   line-height: 55px !important;
 }
 
 @media (min-width: 320px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1 br {
+  .bannercontainer .tp-caption.rs-caption-1 br {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1 br {
+  .bannercontainer .tp-caption.rs-caption-1 br {
     display: block;
   }
 }
 
 @media (min-width: 320px) {
-  .bannercontainerV2 .tp-caption.rs-caption-1 span {
+  .bannercontainer .tp-caption.rs-caption-1 span {
     color: #ffd86c !important;
   }
 }
 
-.bannercontainerV2 .tp-caption.rs-caption-2 {
+.bannercontainer .tp-caption.rs-caption-2 {
   color: #ffffff;
 }
 
 @media (min-width: 320px) {
-  .bannercontainerV2 .tp-caption.rs-caption-2 {
+  .bannercontainer .tp-caption.rs-caption-2 {
     font-size: 14px !important;
   }
 }
 
 @media (min-width: 768px) {
-  .bannercontainerV2 .tp-caption.rs-caption-2 {
+  .bannercontainer .tp-caption.rs-caption-2 {
     font-size: 20px !important;
   }
 }
 
 @media (min-width: 320px) {
-  .bannercontainerV2 .tp-caption.rs-caption-3 .btn-default {
+  .bannercontainer .tp-caption.rs-caption-3 .btn-default {
     padding: 6px 12px !important;
     font-size: 14px;
     background-color: #ffffff !important;
@@ -5701,14 +5709,14 @@ footer .color-bar {
 }
 
 @media (min-width: 768px) {
-  .bannercontainerV2 .tp-caption.rs-caption-3 .btn-default {
+  .bannercontainer .tp-caption.rs-caption-3 .btn-default {
     font-size: 16px;
     padding: 11px 50px !important;
   }
 }
 
 @media (min-width: 992px) {
-  .bannercontainerV2 .tp-caption.rs-caption-3 .btn-default {
+  .bannercontainer .tp-caption.rs-caption-3 .btn-default {
     font-size: 18px;
   }
 }
@@ -6574,41 +6582,41 @@ footer .color-bar {
   color: #f0c24b;
 }
 
-.version4 .bannercontainerV2 .tp-caption.rs-caption-1,
-.version4 .bannercontainerV2 .tp-caption.rs-caption-2,
-.version4 .bannercontainerV2 .tp-caption.rs-caption-3 {
+.version4 .bannercontainer .tp-caption.rs-caption-1,
+.version4 .bannercontainer .tp-caption.rs-caption-2,
+.version4 .bannercontainer .tp-caption.rs-caption-3 {
   width: 90%;
 }
 
 @media (min-width: 480px) {
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-1,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-2,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .version4 .bannercontainer .tp-caption.rs-caption-1,
+  .version4 .bannercontainer .tp-caption.rs-caption-2,
+  .version4 .bannercontainer .tp-caption.rs-caption-3 {
     width: 70%;
   }
 }
 
 @media (min-width: 768px) {
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-1,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-2,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .version4 .bannercontainer .tp-caption.rs-caption-1,
+  .version4 .bannercontainer .tp-caption.rs-caption-2,
+  .version4 .bannercontainer .tp-caption.rs-caption-3 {
     width: 60%;
   }
 }
 
 @media (min-width: 1200px) {
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-1,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-2,
-  .version4 .bannercontainerV2 .tp-caption.rs-caption-3 {
+  .version4 .bannercontainer .tp-caption.rs-caption-1,
+  .version4 .bannercontainer .tp-caption.rs-caption-2,
+  .version4 .bannercontainer .tp-caption.rs-caption-3 {
     width: 50%;
   }
 }
 
-.version4 .bannercontainerV2 .tp-caption.rs-caption-1 {
+.version4 .bannercontainer .tp-caption.rs-caption-1 {
   color: #222222;
 }
 
-.version4 .bannercontainerV2 .tp-caption.rs-caption-2 {
+.version4 .bannercontainer .tp-caption.rs-caption-2 {
   color: #666666;
 }
 
