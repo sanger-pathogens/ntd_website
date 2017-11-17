@@ -4939,6 +4939,10 @@ footer .color-bar {
   background-color: #ffffff;
   list-style:outside lower-roman;
   margin-left:30px;
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .diseaseDetails ol li {
