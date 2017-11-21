@@ -1037,7 +1037,7 @@ aside {
 }
 
 .pageTitleSection {
-  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/cholera-sem.jpg");
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/large/cholera-sem-lg.jpg");
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -1046,11 +1046,11 @@ aside {
 }
 
 .bacteriaTitleSection {
-  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/cholera-sem.jpg") !important;
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/large/cholera-sem-lg.jpg") !important;
 }
 
 .parasiteTitleSection {
-  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/leishmaniasis.jpg") !important;
+  background-image: linear-gradient(rgba(102, 102, 102, 0.45),rgba(51, 51, 51, 0.45)), url("../img/ntds/large/leishmania-mexicana-wellcome-collection-lg.jpg") !important;
 }
 
 .pageTitleSection .pageTitleInfo {
@@ -5203,6 +5203,10 @@ footer .color-bar {
 
 .fancybox-lock .fancybox-overlay {
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.fancybox-title {
+  font-size: 12px;
 }
 
 .isotopeSelector img {
