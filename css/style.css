@@ -3783,11 +3783,23 @@ footer .color-bar {
   }
 }
 
+@media (min-width: 320px) {
+  .tp-caption.rs-caption-2 {
+    margin-top:50px;
+  }
+}
+@media (min-width: 320px) {
+  .tp-caption.rs-caption-3 {
+    margin-top:70px;
+  }
+}
+
 @media (min-width: 768px) {
   .tp-caption.rs-caption-1,
   .tp-caption.rs-caption-2,
   .tp-caption.rs-caption-3 {
     width: 85%;
+    margin-top: 0;
   }
 }
 
@@ -3796,6 +3808,7 @@ footer .color-bar {
   .tp-caption.rs-caption-2,
   .tp-caption.rs-caption-3 {
     width: 70%;
+    margin-top: 0;
   }
 }
 
@@ -3804,6 +3817,7 @@ footer .color-bar {
   .tp-caption.rs-caption-2,
   .tp-caption.rs-caption-3 {
     width: 55%;
+    margin-top: 0;
   }
 }
 
