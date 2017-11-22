@@ -6546,7 +6546,7 @@ footer .color-bar {
 
 /*=== 5.4 ABOUT SCHOOL ===*/
 @media (min-width: 320px) {
-  .mainSection {
+  .mainSection, .blogSection {
     padding: 50px !important;
   }
 }
@@ -6578,6 +6578,40 @@ footer .color-bar {
   color: #666666 !important;
   font-weight: 600;
   font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .blogSection {
+    padding: 10px 0px !important;
+  }
+}
+
+.blogTitleSection {  
+  margin: 50px 0;
+}
+
+.blogSection .blogContent p {
+  font-size: 14px;
+  color: #666666;
+  font-weight: 400;  
+  margin: 0 0 25px 0;
+  text-align: justify;
+  line-height: 24px;
+}
+
+.blogSection .blogImage p, .blogSection .blogVideo p {
+  text-align: center;
+  color:#074887;
+}
+
+.blogContent .para-list.list-unstyled {
+  display: inline-block !important;
+  margin-bottom: 25px;
+}
+
+.blogContent .para-list.list-unstyled li {
+  color: #074887 !important;
+  text-align: center;
 }
 
 @media (min-width: 992px) {
