@@ -9,20 +9,20 @@ var simplemaps_worldmap_mapdata={
     
     //State defaults
     state_description: "State description",
-    state_color: "#074887",
-    state_hover_color: "#2C70B2",
-    state_url: "",
+    state_color: "#88A4BC",
+    state_hover_color: "#3B729F",
+    state_url: "http://simplemaps.com",
     border_size: 1.5,
     all_states_inactive: "no",
     all_states_zoomable: "yes",
     
     //Location defaults
     location_description: "Location description",
-    location_color: "#BD002F",
+    location_color: "#bd002f",
     location_opacity: 0.8,
     location_hover_opacity: 1,
     location_url: "",
-    location_size: "25",
+    location_size: 25,
     location_type: "marker",
     location_image_source: "frog.png",
     location_border_color: "#FFFFFF",
@@ -71,890 +71,978 @@ var simplemaps_worldmap_mapdata={
   },
   state_specific: {
     AF: {
-      name: "Afghanistan",
-      description: " "
+      name: "Afghanistan"
     },
     AO: {
-      name: "Angola",
-      description: " "
+      name: "Angola"
     },
     AL: {
-      name: "Albania",
-      description: " "
+      name: "Albania"
     },
     AE: {
-      name: "United Arab Emirates",
-      description: " "
+      name: "United Arab Emirates"
     },
     AR: {
-      name: "Argentina",
-      description: " "
+      name: "Argentina"
     },
     AM: {
-      name: "Armenia",
-      description: " "
+      name: "Armenia"
     },
     AU: {
-      name: "Australia",
-      description: " "
+      name: "Australia"
     },
     AT: {
-      name: "Austria",
-      description: " "
+      name: "Austria"
     },
     AZ: {
-      name: "Azerbaijan",
-      description: " "
+      name: "Azerbaijan"
     },
     BI: {
-      name: "Burundi",
-      description: " "
+      name: "Burundi"
     },
     BE: {
-      name: "Belgium",
-      description: " "
+      name: "Belgium"
     },
     BJ: {
-      name: "Benin",
-      description: " "
+      name: "Benin"
     },
     BF: {
-      name: "Burkina Faso",
-      description: " "
+      name: "Burkina Faso"
     },
     BD: {
-      name: "Bangladesh",
-      description: " "
+      name: "Bangladesh"
     },
     BG: {
-      name: "Bulgaria",
-      description: " "
+      name: "Bulgaria"
     },
     BH: {
-      name: "Bahrain",
-      description: " "
+      name: "Bahrain"
     },
     BA: {
-      name: "Bosnia and Herzegovina",
-      description: " "
+      name: "Bosnia and Herzegovina"
     },
     BY: {
-      name: "Belarus",
-      description: " "
+      name: "Belarus"
     },
     BZ: {
-      name: "Belize",
-      description: " "
+      name: "Belize"
     },
     BO: {
-      name: "Bolivia",
-      description: " "
+      name: "Bolivia"
     },
     BR: {
-      name: "Brazil",
-      description: " "
+      name: "Brazil"
     },
     BN: {
-      name: "Brunei Darussalam",
-      description: " "
+      name: "Brunei Darussalam"
     },
     BT: {
-      name: "Bhutan",
-      description: " "
+      name: "Bhutan"
     },
     BW: {
-      name: "Botswana",
-      description: " "
+      name: "Botswana"
     },
     CF: {
-      name: "Central African Republic",
-      description: " "
+      name: "Central African Republic"
     },
     CA: {
-      name: "Canada",
-      description: " "
+      name: "Canada"
     },
     CH: {
-      name: "Switzerland",
-      description: " "
+      name: "Switzerland"
     },
     CL: {
-      name: "Chile",
-      description: " "
+      name: "Chile"
     },
     CN: {
-      name: "China",
-      description: " "
+      name: "China"
     },
     CI: {
-      name: "Côte d'Ivoire",
-      description: " "
+      name: "Côte d'Ivoire"
     },
     CM: {
-      name: "Cameroon",
-      description: " "
+      name: "Cameroon"
     },
     CD: {
-      name: "Democratic Republic of the Congo",
-      description: " "
+      name: "Democratic Republic of the Congo"
     },
     CG: {
-      name: "Republic of Congo",
-      description: " "
+      name: "Republic of Congo"
     },
     CO: {
-      name: "Colombia",
-      description: " "
+      name: "Colombia"
     },
     CR: {
-      name: "Costa Rica",
-      description: " "
+      name: "Costa Rica"
     },
     CU: {
-      name: "Cuba",
-      description: " "
+      name: "Cuba"
     },
     CZ: {
-      name: "Czech Republic",
-      description: " "
+      name: "Czech Republic"
     },
     DE: {
-      name: "Germany",
-      description: " "
+      name: "Germany"
     },
     DJ: {
-      name: "Djibouti",
-      description: " "
+      name: "Djibouti"
     },
     DK: {
-      name: "Denmark",
-      description: " "
+      name: "Denmark"
     },
     DO: {
-      name: "Dominican Republic",
-      description: " "
+      name: "Dominican Republic"
     },
     DZ: {
-      name: "Algeria",
-      description: " "
+      name: "Algeria"
     },
     EC: {
-      name: "Ecuador",
-      description: " "
+      name: "Ecuador"
     },
     EG: {
-      name: "Egypt",
-      description: " "
+      name: "Egypt"
     },
     ER: {
-      name: "Eritrea",
-      description: " "
+      name: "Eritrea"
     },
     EE: {
-      name: "Estonia",
-      description: " "
+      name: "Estonia"
     },
     ET: {
-      name: "Ethiopia",
-      description: " "
+      name: "Ethiopia"
     },
     FI: {
-      name: "Finland",
-      description: " "
+      name: "Finland"
     },
     FJ: {
-      name: "Fiji",
-      description: " "
+      name: "Fiji"
     },
     GA: {
-      name: "Gabon",
-      description: " "
+      name: "Gabon"
     },
     GB: {
-      name: "United Kingdom",
-      description: " "
+      name: "United Kingdom"
     },
     GE: {
-      name: "Georgia",
-      description: " "
+      name: "Georgia"
     },
     GH: {
-      name: "Ghana",
-      description: " "
+      name: "Ghana"
     },
     GN: {
-      name: "Guinea",
-      description: " "
+      name: "Guinea"
     },
     GM: {
-      name: "The Gambia",
-      description: " "
+      name: "The Gambia"
     },
     GW: {
-      name: "Guinea-Bissau",
-      description: " "
+      name: "Guinea-Bissau"
     },
     GQ: {
-      name: "Equatorial Guinea",
-      description: " "
+      name: "Equatorial Guinea"
     },
     GR: {
-      name: "Greece",
-      description: " "
+      name: "Greece"
     },
     GL: {
-      name: "Greenland",
-      description: " "
+      name: "Greenland"
     },
     GT: {
-      name: "Guatemala",
-      description: " "
+      name: "Guatemala"
     },
     GY: {
-      name: "Guyana",
-      description: " "
+      name: "Guyana"
     },
     HN: {
-      name: "Honduras",
-      description: " "
+      name: "Honduras"
     },
     HR: {
-      name: "Croatia",
-      description: " "
+      name: "Croatia"
     },
     HT: {
-      name: "Haiti",
-      description: " "
+      name: "Haiti"
     },
     HU: {
-      name: "Hungary",
-      description: " "
+      name: "Hungary"
     },
     ID: {
-      name: "Indonesia",
-      description: " "
+      name: "Indonesia"
     },
     IN: {
-      name: "India",
-      description: " "
+      name: "India"
     },
     IE: {
-      name: "Ireland",
-      description: " "
+      name: "Ireland"
     },
     IR: {
-      name: "Iran",
-      description: " "
+      name: "Iran"
     },
     IQ: {
-      name: "Iraq",
-      description: " "
+      name: "Iraq"
     },
     IS: {
-      name: "Iceland",
-      description: " "
+      name: "Iceland"
     },
     IL: {
-      name: "Israel",
-      description: " "
+      name: "Israel"
     },
     IT: {
-      name: "Italy",
-      description: " "
+      name: "Italy"
     },
     JM: {
-      name: "Jamaica",
-      description: " "
+      name: "Jamaica"
     },
     JO: {
-      name: "Jordan",
-      description: " "
+      name: "Jordan"
     },
     JP: {
-      name: "Japan",
-      description: " "
+      name: "Japan"
     },
     KZ: {
-      name: "Kazakhstan",
-      description: " "
+      name: "Kazakhstan"
     },
     KE: {
-      name: "Kenya",
-      description: " "
+      name: "Kenya"
     },
     KG: {
-      name: "Kyrgyzstan",
-      description: " "
+      name: "Kyrgyzstan"
     },
     KH: {
-      name: "Cambodia",
-      description: " "
+      name: "Cambodia"
     },
     KR: {
-      name: "Republic of Korea",
-      description: " "
+      name: "Republic of Korea"
     },
     XK: {
-      name: "Kosovo",
-      description: " "
+      name: "Kosovo"
     },
     KW: {
-      name: "Kuwait",
-      description: " "
+      name: "Kuwait"
     },
     LA: {
-      name: "Lao PDR",
-      description: " "
+      name: "Lao PDR"
     },
     LB: {
-      name: "Lebanon",
-      description: " "
+      name: "Lebanon"
     },
     LR: {
-      name: "Liberia",
-      description: " "
+      name: "Liberia"
     },
     LY: {
-      name: "Libya",
-      description: " "
+      name: "Libya"
     },
     LK: {
-      name: "Sri Lanka",
-      description: " "
+      name: "Sri Lanka"
     },
     LS: {
-      name: "Lesotho",
-      description: " "
+      name: "Lesotho"
     },
     LT: {
-      name: "Lithuania",
-      description: " "
+      name: "Lithuania"
     },
     LU: {
-      name: "Luxembourg",
-      description: " "
+      name: "Luxembourg"
     },
     LV: {
-      name: "Latvia",
-      description: " "
+      name: "Latvia"
     },
     MA: {
-      name: "Morocco",
-      description: " "
+      name: "Morocco"
     },
     MD: {
-      name: "Moldova",
-      description: " "
+      name: "Moldova"
     },
     MG: {
-      name: "Madagascar",
-      description: " "
+      name: "Madagascar"
     },
     MX: {
-      name: "Mexico",
-      description: " "
+      name: "Mexico"
     },
     MK: {
-      name: "Macedonia",
-      description: " "
+      name: "Macedonia"
     },
     ML: {
-      name: "Mali",
-      description: " "
+      name: "Mali"
     },
     MM: {
-      name: "Myanmar",
-      description: " "
+      name: "Myanmar"
     },
     ME: {
-      name: "Montenegro",
-      description: " "
+      name: "Montenegro"
     },
     MN: {
-      name: "Mongolia",
-      description: " "
+      name: "Mongolia"
     },
     MZ: {
-      name: "Mozambique",
-      description: " "
+      name: "Mozambique"
     },
     MR: {
-      name: "Mauritania",
-      description: " "
+      name: "Mauritania"
     },
     MW: {
-      name: "Malawi",
-      description: " "
+      name: "Malawi"
     },
     MY: {
-      name: "Malaysia",
-      description: " "
+      name: "Malaysia"
     },
     NA: {
-      name: "Namibia",
-      description: " "
+      name: "Namibia"
     },
     NE: {
-      name: "Niger",
-      description: " "
+      name: "Niger"
     },
     NG: {
-      name: "Nigeria",
-      description: " "
+      name: "Nigeria"
     },
     NI: {
-      name: "Nicaragua",
-      description: " "
+      name: "Nicaragua"
     },
     NL: {
-      name: "Netherlands",
-      description: " "
+      name: "Netherlands"
     },
     NO: {
-      name: "Norway",
-      description: " "
+      name: "Norway"
     },
     NP: {
-      name: "Nepal",
-      description: " "
+      name: "Nepal"
     },
     NZ: {
-      name: "New Zealand",
-      description: " "
+      name: "New Zealand"
     },
     OM: {
-      name: "Oman",
-      description: " "
+      name: "Oman"
     },
     PK: {
-      name: "Pakistan",
-      description: " "
+      name: "Pakistan"
     },
     PA: {
-      name: "Panama",
-      description: " "
+      name: "Panama"
     },
     PE: {
-      name: "Peru",
-      description: " "
+      name: "Peru"
     },
     PH: {
-      name: "Philippines",
-      description: " "
+      name: "Philippines"
     },
     PG: {
-      name: "Papua New Guinea",
-      description: " "
+      name: "Papua New Guinea"
     },
     PL: {
-      name: "Poland",
-      description: " "
+      name: "Poland"
     },
     KP: {
-      name: "Dem. Rep. Korea",
-      description: " "
+      name: "Dem. Rep. Korea"
     },
     PT: {
-      name: "Portugal",
-      description: " "
+      name: "Portugal"
     },
     PY: {
-      name: "Paraguay",
-      description: " "
+      name: "Paraguay"
     },
     PS: {
-      name: "Palestine",
-      description: " "
+      name: "Palestine"
     },
     QA: {
-      name: "Qatar",
-      description: " "
+      name: "Qatar"
     },
     RO: {
-      name: "Romania",
-      description: " "
+      name: "Romania"
     },
     RU: {
-      name: "Russia",
-      description: " "
+      name: "Russia"
     },
     RW: {
-      name: "Rwanda",
-      description: " "
+      name: "Rwanda"
     },
     EH: {
-      name: "Western Sahara",
-      description: " "
+      name: "Western Sahara"
     },
     SA: {
-      name: "Saudi Arabia",
-      description: " "
+      name: "Saudi Arabia"
     },
     SD: {
-      name: "Sudan",
-      description: " "
+      name: "Sudan"
     },
     SS: {
-      name: "South Sudan",
-      description: " "
+      name: "South Sudan"
     },
     SN: {
-      name: "Senegal",
-      description: " "
+      name: "Senegal"
     },
     SL: {
-      name: "Sierra Leone",
-      description: " "
+      name: "Sierra Leone"
     },
     SV: {
-      name: "El Salvador",
-      description: " "
+      name: "El Salvador"
     },
     RS: {
-      name: "Serbia",
-      description: " "
+      name: "Serbia"
     },
     SR: {
-      name: "Suriname",
-      description: " "
+      name: "Suriname"
     },
     SK: {
-      name: "Slovakia",
-      description: " "
+      name: "Slovakia"
     },
     SI: {
-      name: "Slovenia",
-      description: " "
+      name: "Slovenia"
     },
     SE: {
-      name: "Sweden",
-      description: " "
+      name: "Sweden"
     },
     SZ: {
-      name: "Swaziland",
-      description: " "
+      name: "Swaziland"
     },
     SY: {
-      name: "Syria",
-      description: " "
+      name: "Syria"
     },
     TD: {
-      name: "Chad",
-      description: " "
+      name: "Chad"
     },
     TG: {
-      name: "Togo",
-      description: " "
+      name: "Togo"
     },
     TH: {
-      name: "Thailand",
-      description: " "
+      name: "Thailand"
     },
     TJ: {
-      name: "Tajikistan",
-      description: " "
+      name: "Tajikistan"
     },
     TM: {
-      name: "Turkmenistan",
-      description: " "
+      name: "Turkmenistan"
     },
     TL: {
-      name: "Timor-Leste",
-      description: " "
+      name: "Timor-Leste"
     },
     TN: {
-      name: "Tunisia",
-      description: " "
+      name: "Tunisia"
     },
     TR: {
-      name: "Turkey",
-      description: " "
+      name: "Turkey"
     },
     TW: {
-      name: "Taiwan",
-      description: " "
+      name: "Taiwan"
     },
     TZ: {
-      name: "Tanzania",
-      description: " "
+      name: "Tanzania"
     },
     UG: {
-      name: "Uganda",
-      description: " "
+      name: "Uganda"
     },
     UA: {
-      name: "Ukraine",
-      description: " "
+      name: "Ukraine"
     },
     UY: {
-      name: "Uruguay",
-      description: " "
+      name: "Uruguay"
     },
     US: {
-      name: "United States",
-      description: " "
+      name: "United States"
     },
     UZ: {
-      name: "Uzbekistan",
-      description: " "
+      name: "Uzbekistan"
     },
     VE: {
-      name: "Venezuela",
-      description: " "
+      name: "Venezuela"
     },
     VN: {
-      name: "Vietnam",
-      description: " "
+      name: "Vietnam"
     },
     VU: {
-      name: "Vanuatu",
-      description: " "
+      name: "Vanuatu"
     },
     YE: {
-      name: "Yemen",
-      description: " "
+      name: "Yemen"
     },
     ZA: {
-      name: "South Africa",
-      description: " "
+      name: "South Africa"
     },
     ZM: {
-      name: "Zambia",
-      description: " "
+      name: "Zambia"
     },
     ZW: {
-      name: "Zimbabwe",
-      description: " "
+      name: "Zimbabwe"
     },
     SO: {
-      name: "Somalia",
-      description: " "
+      name: "Somalia"
     },
     GF: {
-      name: "France",
-      description: " "
+      name: "France"
     },
     FR: {
-      name: "France",
-      description: " "
+      name: "France"
     },
     ES: {
-      name: "Spain",
-      description: " "
+      name: "Spain"
     },
     AW: {
-      name: "Aruba",
-      description: " "
+      name: "Aruba"
     },
     AI: {
-      name: "Anguilla",
-      description: " "
+      name: "Anguilla"
     },
     AD: {
-      name: "Andorra",
-      description: " "
+      name: "Andorra"
     },
     AG: {
-      name: "Antigua and Barbuda",
-      description: " "
+      name: "Antigua and Barbuda"
     },
     BS: {
-      name: "Bahamas",
-      description: " "
+      name: "Bahamas"
     },
     BM: {
-      name: "Bermuda",
-      description: " "
+      name: "Bermuda"
     },
     BB: {
-      name: "Barbados",
-      description: " "
+      name: "Barbados"
     },
     KM: {
-      name: "Comoros",
-      description: " "
+      name: "Comoros"
     },
     CV: {
-      name: "Cape Verde",
-      description: " "
+      name: "Cape Verde"
     },
     KY: {
-      name: "Cayman Islands",
-      description: " "
+      name: "Cayman Islands"
     },
     DM: {
-      name: "Dominica",
-      description: " "
+      name: "Dominica"
     },
     FK: {
-      name: "Falkland Islands",
-      description: " "
+      name: "Falkland Islands"
     },
     FO: {
-      name: "Faeroe Islands",
-      description: " "
+      name: "Faeroe Islands"
     },
     GD: {
-      name: "Grenada",
-      description: " "
+      name: "Grenada"
     },
     HK: {
-      name: "Hong Kong",
-      description: " "
+      name: "Hong Kong"
     },
     KN: {
-      name: "Saint Kitts and Nevis",
-      description: " "
+      name: "Saint Kitts and Nevis"
     },
     LC: {
-      name: "Saint Lucia",
-      description: " "
+      name: "Saint Lucia"
     },
     LI: {
-      name: "Liechtenstein",
-      description: " "
+      name: "Liechtenstein"
     },
     MF: {
-      name: "Saint Martin (French)",
-      description: " "
+      name: "Saint Martin (French)"
     },
     MV: {
-      name: "Maldives",
-      description: " "
+      name: "Maldives"
     },
     MT: {
-      name: "Malta",
-      description: " "
+      name: "Malta"
     },
     MS: {
-      name: "Montserrat",
-      description: " "
+      name: "Montserrat"
     },
     MU: {
-      name: "Mauritius",
-      description: " "
+      name: "Mauritius"
     },
     NC: {
-      name: "New Caledonia",
-      description: " "
+      name: "New Caledonia"
     },
     NR: {
-      name: "Nauru",
-      description: " "
+      name: "Nauru"
     },
     PN: {
-      name: "Pitcairn Islands",
-      description: " "
+      name: "Pitcairn Islands"
     },
     PR: {
-      name: "Puerto Rico",
-      description: " "
+      name: "Puerto Rico"
     },
     PF: {
-      name: "French Polynesia",
-      description: " "
+      name: "French Polynesia"
     },
     SG: {
-      name: "Singapore",
-      description: " "
+      name: "Singapore"
     },
     SB: {
-      name: "Solomon Islands",
-      description: " "
+      name: "Solomon Islands"
     },
     ST: {
-      name: "São Tomé and Principe",
-      description: " "
+      name: "São Tomé and Principe"
     },
     SX: {
-      name: "Saint Martin (Dutch)",
-      description: " "
+      name: "Saint Martin (Dutch)"
     },
     SC: {
-      name: "Seychelles",
-      description: " "
+      name: "Seychelles"
     },
     TC: {
-      name: "Turks and Caicos Islands",
-      description: " "
+      name: "Turks and Caicos Islands"
     },
     TO: {
-      name: "Tonga",
-      description: " "
+      name: "Tonga"
     },
     TT: {
-      name: "Trinidad and Tobago",
-      description: " "
+      name: "Trinidad and Tobago"
     },
     VC: {
-      name: "Saint Vincent and the Grenadines",
-      description: " "
+      name: "Saint Vincent and the Grenadines"
     },
     VG: {
-      name: "British Virgin Islands",
-      description: " "
+      name: "British Virgin Islands"
     },
     VI: {
-      name: "United States Virgin Islands",
-      description: " "
+      name: "United States Virgin Islands"
     },
     CY: {
-      name: "Cyprus",
-      description: " "
+      name: "Cyprus"
     },
     RE: {
-      name: "Reunion (France)",
-      description: " "
+      name: "Reunion (France)"
     },
     YT: {
-      name: "Mayotte (France)",
-      description: " "
+      name: "Mayotte (France)"
     },
     MQ: {
-      name: "Martinique (France)",
-      description: " "
+      name: "Martinique (France)"
     },
     GP: {
-      name: "Guadeloupe (France)",
-      description: " "
+      name: "Guadeloupe (France)"
     },
     CW: {
-      name: "Curaco (Netherlands)",
-      description: " "
+      name: "Curaco (Netherlands)"
     },
     IC: {
-      name: "Canary Islands (Spain)",
-      description: " "
+      name: "Canary Islands (Spain)"
     }
   },
   locations: {
     "0": {
-      lat: 51.506,
-      lng: -0.127,
-      name: "Chlamydia"
+      lat: 52.416,
+      lng: -4.078,
+      name: "Aberystwyth",
+      description: "<strong>Prof. Karl Hoffman</strong><br />Aberystwyth University<br /><em>Flatworm Functional Genomics Initiative</em>"
     },
     "1": {
-      lat: 32.778,
-      lng: -96.795,
-      name: "Typhoid"
+      lat: 51.217,
+      lng: 4.4,
+      name: "Antwerp",
+      description: "<strong>Prof. Jean-Claude Dujardin</strong><br />Institute of Tropical Medicine<br /><em>Leishmania diversity</em><br /><br /><strong>Prof. Bouke de Jong</strong><br />Institute of Tropical Medicine<br /><em>Mycobacterium ulcerans</em>"
     },
     "2": {
-      lat: 22.336,
-      lng: 114.187,
-      name: "Schistosoma",
-      color: "#D09F00"
+      lat: -19.92,
+      lng: -43.938,
+      name: "Belo Horizonte",
+      description: "<strong>Prof. Guilherme Oliveira</strong><br />Fiocruz<br /><em>Schistosoma mansoni</em>"
     },
     "3": {
-      lat: 6.534,
-      lng: 3.382,
-      name: "Cholera"
+      lat: 42.359,
+      lng: -71.057,
+      name: "Boston",
+      description: "<strong>Prof. Edward T Ryan</strong><br />Harvard University<br /><em>Vibrio cholerae</em>"
     },
-    paris: {
-      lat: 0.325,
-      lng: 32.587,
-      name: "Whipworm",
-      color: "#D09F00",
-      description: "Thomas Crellen<br /><em>Uganda</em>"
+    "4": {
+      lat: 51.454,
+      lng: -2.592,
+      name: "Bristol",
+      description: "<strong>Prof. Mark Viney</strong><br />University of Bristol<br /><em>Production of Strongyloides</em>"
+    },
+    "5": {
+      lat: -34.608,
+      lng: -58.373,
+      name: "Buenos Aires",
+      description: "<strong>Dr. Josefina Campos</strong><br />Administración Nacional de Laboratorios e Institutos de Salud<br /><em>Latin American bacterial epidemiology</em>"
+    },
+    "6": {
+      lat: 52.21,
+      lng: 0.111,
+      name: "Cambridge",
+      description: "<strong>Dr. Mark Holmes</strong><br />University of Cambridge<br /><em>Staphylococcus aureus</em><br /><br /><strong>Prof. David Dunne</strong><br />University of Cambridge<br /><em>THRiVE</em>"
+    },
+    "7": {
+      lat: 51.481,
+      lng: -3.181,
+      name: "Cardiff",
+      description: "<strong>Dr. Thomas Connor</strong><br />Cardiff University<br /><em>Clostridium, Salmonella and Klebsiella</em>"
+    },
+    "8": {
+      lat: -43.531,
+      lng: 172.638,
+      name: "Christchurch",
+      description: "<strong>Dr. Paul Gardner</strong><br />University of Canterbury<br /><em>Enteric bacteria transcriptome projects</em>"
+    },
+    "9": {
+      lat: 32.778,
+      lng: -96.795,
+      name: "Dallas",
+      description: "<strong>Prof. James Collins</strong><br />University of Texas Southwestern Medical Center<br /><em>Schistosoma mansoni</em>"
+    },
+    "10": {
+      lat: 23.713,
+      lng: 90.4,
+      name: "Dhaka",
+      description: "<strong>Prof. John Clemens</strong><br />icddr,b<br /><em>Cholera pathogenesis</em><br /><br /><strong>Dr. Firdausi Qadri</strong><br />icddr,b<br /><em>Control of enteric fever through vaccination</em>"
+    },
+    "11": {
+      lat: 56.461,
+      lng: -2.968,
+      name: "Dundee",
+      description: "<strong>Prof. Ian Gilbert</strong><br />Univeristy of Dundee<br /><em>Anti-parasitic drug discovery</em><br /><br /><strong>Prof. Alan Fairlamb</strong><br />University of Dundee<br /><em>Leishmania and Trypanosome drug targets</em>"
+    },
+    "12": {
+      lat: 55.954,
+      lng: -3.202,
+      name: "Edinburgh",
+      description: "<strong>Prof. Mark Blaxter</strong><br />University of Edinburgh<br /><em>50 helminths project</em>"
+    },
+    "13": {
+      lat: 56.22,
+      lng: -3.029,
+      name: "Fife",
+      description: "<strong>Prof. Stephen Gillespie</strong><br />University of St Andrews<br /><em>Mycoplasma amphoriforme</em><br /><br /><strong>Dr. Matthew Holden</strong><br />University of St Andrews<br /><em>Staphylococcus aureus</em>"
+    },
+    "14": {
+      lat: 50.586,
+      lng: 8.676,
+      name: "Giessen",
+      description: "<strong>Prof. Christoph Grevelding</strong><br />Justus-Liebig-Universität Giessen<br /><em>Flatworm Functional Genomics Initiative</em>"
+    },
+    "15": {
+      lat: 55.858,
+      lng: -4.243,
+      name: "Glasgow",
+      description: "<strong>Prof. Rick Maizels</strong><br />University of Glasgow<br /><em>Nippostrongylus brasiliensisgenome project, WormBase, WormBase-ParaSite</em>"
+    },
+    "16": {
+      lat: 57.701,
+      lng: 11.968,
+      name: "Göteborg ",
+      description: "<strong>Prof. Jan Holmgren</strong><br />Gothenburg University Vaccine Research Institute<br /><em>Cholera and muscosal vaccines, SAB</em><br /><br /><strong>Prof. Ann-Mari Svennerholm</strong><br />Gothenburg University Vaccine Research Centre<br /><em>ETEC and Cholera projects</em>"
+    },
+    "17": {
+      lat: 60.171,
+      lng: 24.933,
+      name: "Helsinki",
+      description: "<strong>Prof. Jukka Corander</strong><br />University of Helsinki<br /><em>Bioinformatics and statistical genetics</em>"
+    },
+    "18": {
+      lat: 9.999,
+      lng: -84.118,
+      name: "Heredia",
+      description: "<strong>Dr. Caterina Guzman Verri</strong><br />Universidad Nacional de Costa Rica<br /><em>Brucellagenomics projects and teaching genomics in the Americas</em>"
+    },
+    "19": {
+      lat: 10.778,
+      lng: 106.703,
+      name: "Ho Chi Minh City",
+      description: "<strong>Prof. Jeremy Farrar</strong><br />Oxford University Clinical Research Unit<br /><em>Biomarkers for Typhoid infection</em>"
+    },
+    "20": {
+      lat: 7.341,
+      lng: 3.872,
+      name: "Ibadan",
+      description: "<strong>Prof. Iruka Okeke</strong><br />University of Ibadan<br /><em>Pathogenic lineages of enteric bacteria in Nigeria</em>"
+    },
+    "21": {
+      lat: 33.708,
+      lng: 73.07,
+      name: "Islamabad",
+      description: "<strong>Prof. Habib Bokhari</strong><br />COMSATS Institute of Information Technology<br /><em>Vibrio cholerae</em>"
+    },
+    "22": {
+      lat: 53.795,
+      lng: -1.547,
+      name: "Leeds",
+      description: "<strong>Prof. A MacDonald</strong><br />University of Leeds<br /><em>Dendritic cells</em>"
+    },
+    "23": {
+      lat: 51.345,
+      lng: 12.386,
+      name: "Leipzig",
+      description: "<strong>Dr. Daniel Falush</strong><br />Max Plank Institute for Evolutionary Anthropology<br /><em>Statistical genetics of bacteria</em>"
+    },
+    "24": {
+      lat: 53.41,
+      lng: -2.978,
+      name: "Liverpool",
+      description: "<strong>Dr. Nicholas Feasey</strong><br />University of Liverpool, Malawi-Liverpool-WT<br /><em>Blood stream invasive Nontyphoidal Salmonellae from Sub Saharan Africa</em><br /><br /><strong>Prof. Robert Heyderman</strong><br />Liverpool School of Tropical Medicine<br /><em>Control of enteric fever through vaccination</em><br /><br /><strong>Dr. Melita Gordon</strong><br />Malawi-Liverpool WT Clinical Unit<br /><em>Control of enteric fever through vaccination</em><br /><br /><strong>Dr. Christiane Hertz-Fowler</strong><br />University of Liverpool<br /><em>Integrated bioinformatics resources for kinetoplastid pathogens</em><br /><br /><strong>Prof. J Hinton</strong><br />University of Liverpool<br /><em>S. enterica functional genomics projects</em><br /><br /><strong>Dr. A P Jackson</strong><br />University of Liverpool<br /><em>Trypanosoma genomics</em>"
+    },
+    "25": {
+      lat: 51.506,
+      lng: -0.127,
+      name: "London",
+      description: "<strong>Dr. Peter Olson</strong><br />Natural History Museum<br /><em>Tapeworm projects</em><br /><br /><strong>Dr. Claire Jenkins</strong><br />Public Health England<br /><em>Multiple projects looking at the diversity and spread of enteric bacteria</em><br /><br /><strong>Dr. Richard Hayward</strong><br />University College London<br /><em>C. trachomatis functional genomics</em><br /><br /><strong>Prof. David Goldblatt</strong><br />University College London<br /><em>Global health, human immunology, immundeficiency and vaccinology</em>"
+    },
+    "26": {
+      lat: 53.48,
+      lng: -2.249,
+      name: "Manchester",
+      description: "<strong>Prof. Richard Grencis</strong><br />University of Manchester<br /><em>Trichuris sequencing</em>"
+    },
+    "27": {
+      lat: 38.953,
+      lng: -76.701,
+      name: "Maryland",
+      description: "<strong>Prof. David Rasko</strong><br />University of Maryland<br /><em>E. coli, V. cholerae and Shigella sp. genomics projects</em><br /><br /><strong>Dr. Myron Levine</strong><br />University of Maryland<br /><em>Salmonellagenus and global diversity projects</em><br /><br /><strong>Prof. O. Colin Stine</strong><br />University of Maryland<br /><em>Vibrio cholerae and microbiota projects</em>"
+    },
+    "28": {
+      lat: -37.818,
+      lng: 144.967,
+      name: "Melbourne",
+      description: "<strong>Prof. Dick Strugnell</strong><br />The University of Melbourne<br /><em>Salmonella and Klebsiella projects</em><br /><br /><strong>Dr. Kat Holt</strong><br />University of Melbourne<br /><em>Salmonella genus and global diversity genomics projects</em>"
+    },
+    "29": {
+      lat: 31.912,
+      lng: 131.421,
+      name: "Miyazaki",
+      description: "<strong>Prof. Tetsuya Hayashi</strong><br />University of Miyazaki<br /><em>E. coli and Serratia marcescens genomics projects</em><br /><br /><strong>Dr. Atsushi Iguchi</strong><br />University of Miyazaki<br /><em>E. coli and Serratia marcescens projects</em>"
+    },
+    "30": {
+      lat: -34.874,
+      lng: -56.163,
+      name: "Montevideo",
+      description: "<strong>Dr. Alejandro Chabalgoity</strong><br />Instituto de Higiene<br /><em>Latin American bacterial epidemiology</em>"
+    },
+    "31": {
+      lat: 40.715,
+      lng: -74.007,
+      name: "New York",
+      description: "<strong>Dr. Sara Lustigman</strong><br />New York Blood Center<br /><em>Onchocerca volvulus</em>"
+    },
+    "32": {
+      lat: 54.978,
+      lng: -1.612,
+      name: "Newcastle",
+      description: "<strong>Prof. Robert Hirt</strong><br />Newcastle University<br /><em>Molecular and cellular evolution of anaerobic and parasitic eukaryotes</em>"
+    },
+    "33": {
+      lat: 59.271,
+      lng: 15.217,
+      name: "Örebro",
+      description: "<strong>Prof. Magnus Unemo</strong><br />Örebro University Hospital<br /><em>Sexual Health genomics.</em>"
+    },
+    "34": {
+      lat: 48.857,
+      lng: 2.341,
+      name: "Paris",
+      description: "<strong>Prof. Francois-Xavier Weill</strong><br />Institut Pasteur<br /><em>Enteric pathogens</em><br /><br /><strong>Dr. Sylvain Brisse</strong><br />Institut Pasteur<br /><em>Salmonellagenus and K. pneumoniae global diversity projects</em><br /><br /><strong>Dr. Christiane Gerke</strong><br />Institut Pasteur<br /><em>Shigella</em>"
+    },
+    "35": {
+      lat: 42.698,
+      lng: 2.887,
+      name: "Perpignan",
+      description: "<strong>Prof. Christoph Grunau</strong><br />University of Perpignan<br /><em>Schistosome projects</em>"
+    },
+    "36": {
+      lat: 39.952,
+      lng: -75.162,
+      name: "Philadelphia",
+      description: "<strong>Prof. David Roos</strong><br />University of Pennsylvania<br /><em>Parasite databases</em>"
+    },
+    "37": {
+      lat: 40.439,
+      lng: -79.997,
+      name: "Pittsburgh",
+      description: "<strong>Prof. Elodie Ghedin</strong><br />University of Pittsburgh School of Medicine<br /><em>Filarial worms</em>"
+    },
+    "38": {
+      lat: -22.576,
+      lng: 144.535,
+      name: "Queensland",
+      description: "<strong>Dr. Adam Polkinghorne</strong><br />University of the Sunshire Coast Australia<br /><em>Chlamydia pecorumcomparative genomics</em>"
+    },
+    "39": {
+      lat: 37.567,
+      lng: 126.978,
+      name: "Seoul",
+      description: "<strong>Prof. D W Kim</strong><br />Hanyang University<br /><em>Vibrio cholerae</em>"
+    },
+    "40": {
+      lat: 1.303,
+      lng: 103.793,
+      name: "Singapore",
+      description: "<strong>Prof. Swaine L. Chen</strong><br />Genome Institute of Singapore<br /><em>Escherichia coli</em>"
+    },
+    "41": {
+      lat: 50.91,
+      lng: -1.407,
+      name: "Southampton",
+      description: "<strong>Prof. Ian Clarke</strong><br />University of Southampton<br /><em>Biomedical Resource and Technology Development (The Chlamydial biobank)</em>"
+    },
+    "42": {
+      lat: 38.628,
+      lng: -90.2,
+      name: "St Louis",
+      description: "<strong>Dr. Makedonka Mitreva</strong><br />The Genome Institute at Washington Universtiy<br /><em>50 helminths project</em>"
+    },
+    "43": {
+      lat: 37.431,
+      lng: -122.169,
+      name: "Stanford",
+      description: "<strong>Prof. Stanley Falkow</strong><br />Stanford University School of Medicine<br /><em>Molecular microbial pathogenesis projects</em>"
+    },
+    "44": {
+      lat: -33.87,
+      lng: 151.207,
+      name: "Sydney",
+      description: "<strong>Prof. David Lewis</strong><br />University of Sydney<br /><em>Chlamydia trachomatis</em>"
+    },
+    "45": {
+      lat: 13.47,
+      lng: 123.657,
+      name: "Tiwi",
+      description: "<strong>Prof. Phil Giffard</strong><br />Menzies School of Health Research<br /><em>Chlyamydia trachomatis</em>"
+    },
+    "46": {
+      lat: 69.565,
+      lng: 19.411,
+      name: "Tromsø",
+      description: "<strong>Dr. Erik Hjerde</strong><br />University of Tromso<br /><em>Staphylococcus and Vibrio sp. functional genomics projects</em>"
+    },
+    "47": {
+      lat: 52.282,
+      lng: -1.591,
+      name: "Warwick",
+      description: "<strong>Prof. M Actman</strong><br />University of Warwick<br /><em>Yersinia, Salmonella, Escherichia and Staphylococcus projects</em>"
+    },
+    "48": {
+      lat: 38.89,
+      lng: -77.032,
+      name: "Washington DC",
+      description: "<strong>Prof. Paul J. Brindley</strong><br />George Washington University School of Medicine and Health Sciences<br /><em>Functional genomics and genetic manipulation in Schistosoma mansoni</em><br /><br /><strong>Dr. Enrique Perez Gutierrez</strong><br />PAHO/WHO | Department of Communicable Diseases and Health Analysis<br /><em>Teaching genomics in the Americas and Shigella sonnei Latin American genomics project</em>"
+    },
+    "49": {
+      lat: 49.9,
+      lng: -97.141,
+      name: "Winnipeg",
+      description: "<strong>Dr. Matthew Gilmour</strong><br />University of Manitoba<br /><em>Salmonella Typhimurium DT104 and genus genomics project</em>"
+    },
+    "50": {
+      lat: 49.793,
+      lng: 9.937,
+      name: "Würzburg",
+      description: "<strong>Prof. Klaus Brehm</strong><br />Institut fur Hygiene und Mikrobiologie<br /><em>Echinococcus multilocularis genome project</em>"
+    },
+    "51": {
+      lat: 53.96,
+      lng: -1.063,
+      name: "York",
+      description: "<strong>Prof. Charles Lacey</strong><br />University of York<br /><em>Chlamydia trachomatis</em><br /><br /><strong>Prof. Deborah F Smith</strong><br />University of York<br /><em>Leishmania population diversity</em><br /><br /><strong>Prof. Paul Kaye</strong><br />University of York<br /><em>Leishmaniasis and immunology</em>"
+    },
+    "52": {
+      lat: 47.377,
+      lng: 8.54,
+      name: "Zürich",
+      description: "<strong>Dr. Helena Seth-Smith</strong><br />Universität Zürich<br /><em>C. trachomatis, C. abortus and C. pecorum projects</em>"
+    },
+    "53": {
+      lat: 51.619,
+      lng: 0.075,
+      name: "London",
+      description: "<strong>Prof. Brian Spratt</strong><br />Imperial College London<br /><em>Burkholderia pseudomallei and Chlamydia trachomatis</em><br /><br /><strong>Prof. Joanne Webster</strong><br />Imperial College London<br /><em>Schistosome population genomics</em><br /><br /><strong>Dr. Abigail Clements</strong><br />Imperial College London<br /><em>Shigella pathogenesis</em>"
+    },
+    "54": {
+      lat: 51.388,
+      lng: -0.508,
+      name: "London",
+      description: "<strong>Dr. Martin Holland</strong><br />London School of Hygiene and Tropical Medicine<br /><em>C. trachomatis genomics projects</em><br /><br /><strong>Dr. Esmeralda Valiente</strong><br />London School of Hygiene and Tropical Medicine<br /><em>Cholera functional genomics projects; glycosylation systems in Clostridium difficile and their potential role in bacterial virulence</em><br /><br /><strong>Prof. Alisons Elliott</strong><br />London School of Hygiene and Tropical Medicine<br /><em>Schistosomiasis</em>"
     }
   },
   labels: {},
@@ -1194,8 +1282,5 @@ var simplemaps_worldmap_mapdata={
         "KZ"
       ]
     }
-  },
-  data: {
-    data: {}
   }
 };
