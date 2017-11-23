@@ -950,17 +950,16 @@ aside {
 
 /*=== 2.2 SECTION TITLE ===*/
 @media (min-width: 320px) {
-  .whiteSection, .mainContent, .lightSection, .colorSection, .mapSection, .ntdSection {
+  .whiteSection, .mainContent, .lightSection, .colorSection, .mapSection {
     padding: 50px 0;
+  }
+  .ntdSection {
+    padding:0;
   }
 }
 
 @media (min-width: 768px) {
-  .whiteSection, .mainContent, .lightSection, .colorSection {
-    padding: 100px 0;
-  }
-
-  .ntdSection {
+  .whiteSection, .mainContent, .lightSection, .colorSection, .ntdSection {
     padding: 50px 0;
   }
 }
@@ -4827,6 +4826,12 @@ footer .color-bar {
   width: 100%;
 }
 
+@media (min-width: 320px) {
+  .diseaseMainImage {
+    padding-bottom:25px;
+  }
+}
+
 .diseaseMainImage img {
   width: 100%;
 }
@@ -6563,6 +6568,7 @@ footer .color-bar {
 }
 
 /*=== 5.4 ABOUT SCHOOL ===*/
+
 @media (min-width: 320px) {
   .mainSection, .blogSection {
     padding: 50px !important;
