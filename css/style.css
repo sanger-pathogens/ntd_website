@@ -1025,7 +1025,7 @@ aside {
 .sectionTitleSmall h2 {
   text-align: center;
   font-family: 'Dosis', sans-serif;
-  text-transform: capitalize;
+  text-transform: none;
   margin: 0 0 12px 0;
   color: #ffffff;
 }
@@ -4955,6 +4955,10 @@ footer .color-bar {
   padding-left:10px;
 }
 
+.seminarDetails {
+  font-size: 15px;
+}
+
 /*=== 5.8 EVENT SECTION ===*/
 .eventSection {
   padding-bottom: 70px;
@@ -6586,12 +6590,23 @@ footer .color-bar {
   color: #222222 !important;
   font-weight: 600;
   font-size: 18px;
+  text-align: justify !important;
+}
+
+.mainSection p {
+  text-align: justify !important;
 }
 
 .mainSection .mainIntro .aboutP2 {
   color: #666666 !important;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
+  text-align:justify;
+}
+
+.mainSection .well .para-list.list-unstyled li {
+  color: #074887 !important;
+  font-size: 14px;
 }
 
 @media (min-width: 768px) {

@@ -48,43 +48,6 @@ jQuery(document).ready(function(){
   }
   );
 
-
-//============================== Rs-Slider =========================
-  jQuery('.bannercontainer .fullscreenbanner').revolution({
-   delay: 5000,
-   startwidth: 1170,
-   startheight: 560,
-   fullWidth: "on",
-   fullScreen: "off",
-   hideCaptionAtLimit: "",
-   dottedOverlay: "twoxtwo",
-   navigationStyle: "preview4",
-   fullScreenOffsetContainer: "",
-   hideTimerBar:"on",
-
-  });
-
-  jQuery('.bannercontainer .fullscreenbanner').revolution({
-    delay: 5000,
-    startwidth: 1170,
-    startheight: 500,
-    fullWidth: "on",
-    fullScreen: "on",
-    hideCaptionAtLimit: "",
-     dottedOverlay: "twoxtwo",
-    navigationStyle: "preview4",
-    fullScreenOffsetContainer: "",
-    hideTimerBar:"on",
-  });
-
-//============================== COUNTER-UP =========================
-  $(document).ready(function ($) {
-    $('.counter').counterUp({
-      delay: 10,
-      time: 2000
-    });
-  });
-
   //============================== BACK TO TOP =========================
     $(document).ready(function(){
       $(window).scroll(function(){
@@ -110,37 +73,4 @@ jQuery(document).ready(function(){
       });
     });
   });
-
-//============================== ACCORDION OR COLLAPSE ICON CHANGE =========================
-
-    var allIcons = $("#faqAccordion .panel-heading i.fa");
-    $('#faqAccordion .panel-heading').click(function(){
-      allIcons.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-      $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
-    });
-
-    var allIconsOne = $("#accordionOne .panel-heading i.fa");
-    $('#accordionOne .panel-heading').click(function(){
-      allIconsOne.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-      $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
-    });
-
-    var allIconsTwo = $("#accordionTwo .panel-heading i.fa");
-    $('#accordionTwo .panel-heading').click(function(){
-      allIconsTwo.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-      $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
-    });
-
-    var allIconsThree = $("#togglesOne .panel-heading i.fa");
-    $('#togglesOne .panel-heading').click(function(){
-      allIconsThree.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-      $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
-    });
-
-    var allIconsFour = $("#togglesTwo .panel-heading i.fa");
-    $('#togglesTwo .panel-heading').click(function(){
-      allIconsFour.removeClass('fa-chevron-down').addClass('fa-chevron-up');
-      $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
-    });
-
 });
