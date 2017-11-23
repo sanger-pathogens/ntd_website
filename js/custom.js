@@ -39,9 +39,6 @@ jQuery(document).ready(function(){
     $(window).trigger('scroll');
   });
 
-//============================== SELECT BOX =========================
-  $('.select-drop').selectbox();
-
 //============================== MENU DROPDOWN ON HOVER =========================
   $('.nav .dropdown').hover(function() {
     $(this).addClass('open');
@@ -51,12 +48,6 @@ jQuery(document).ready(function(){
   }
   );
 
-//============================== CART =========================
-$('.cart-dropdown a').on("click",function() {
-    $(".dropdown-menu").toggleClass('display-block');
-    $(".cart-dropdown a i").toggleClass('fa-close').toggleClass("fa-shopping-basket");
-    $(".badge").toggleClass('display-none');
-});
 
 //============================== Rs-Slider =========================
   jQuery('.bannercontainer .fullscreenbanner').revolution({
@@ -86,65 +77,6 @@ $('.cart-dropdown a').on("click",function() {
     hideTimerBar:"on",
   });
 
-  
-//============================== OWL-CAROUSEL =========================
-  var owl = $('.owl-carousel.teamSlider');
-  owl.owlCarousel({
-    loop:true,
-    margin:28,
-    autoplay:false,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true,
-    nav:true,
-    moveSlides: 4,
-    dots: false,
-    responsive:{
-      320:{
-        items:1
-      },
-      768:{
-        items:3
-      },
-      992:{
-        items:4
-      }
-    }
-  });
-
-  var owl = $('.owl-carousel.commentSlider');
-  owl.owlCarousel({
-    loop:true,
-    margin:28,
-    autoplay:false,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
-    nav:true,
-    moveSlides: 1,
-    dots: false,
-    responsive:{
-      320:{
-        items:1
-      },
-      768:{
-        items:1
-      },
-      992:{
-        items:1
-      }
-    }
-  });
-
-  
-    var owl = $('.owl-carousel.categorySlider');
-      owl.owlCarousel({
-        loop:true,
-        autoplay:false,
-        autoplayTimeout:2000,
-        autoplayHoverPause:true,
-        nav:true,
-        dots: false,
-        items: 1,
-      });
 //============================== COUNTER-UP =========================
   $(document).ready(function ($) {
     $('.counter').counterUp({
@@ -179,24 +111,6 @@ $('.cart-dropdown a').on("click",function() {
     });
   });
 
-//============================== PRICE SLIDER RANGER =========================
-var minimum = 20;
-var maximum = 300;
-
-$( "#price-range" ).slider({
-  range: true,
-  min: minimum,
-  max: maximum,
-  values: [ minimum, maximum ],
-  slide: function( event, ui ) {
-    $( "#price-amount-1" ).val( "$" + ui.values[ 0 ] );
-    $( "#price-amount-2" ).val( "$" + ui.values[ 1 ] );
-  }
-});
-
-$( "#price-amount-1" ).val( "$" + $( "#price-range" ).slider( "values", 0 ));
-$( "#price-amount-2" ).val( "$" + $( "#price-range" ).slider( "values", 1 ));
-
 //============================== ACCORDION OR COLLAPSE ICON CHANGE =========================
 
     var allIcons = $("#faqAccordion .panel-heading i.fa");
@@ -228,45 +142,5 @@ $( "#price-amount-2" ).val( "$" + $( "#price-range" ).slider( "values", 1 ));
       allIconsFour.removeClass('fa-chevron-down').addClass('fa-chevron-up');
       $(this).find('i.fa').removeClass('fa-chevron-up').addClass('fa-chevron-down');
     });
-
-  //============================== Product Gallery =========================
-  var galleryThumb = $('.product-gallery-thumblist a'),
-      galleryPreview = $('.product-gallery-preview > li');
-
-
-  galleryThumb.on('click', function(e) {
-    var target = $(this).attr('href');
-
-    galleryThumb.parent().removeClass('active');
-    $(this).parent().addClass('active');
-    galleryPreview.removeClass('current');
-    $(target).addClass('current');
-
-    e.preventDefault();
-  });
-
-  // Count Input (Quantity)
-  //------------------------------------------------------------------------------
-  $(".incr-btn").on("click", function(e) {
-    var $button = $(this);
-    var oldValue = $button.parent().find('.quantity').val();
-    $button.parent().find('.incr-btn[data-action="decrease"]').removeClass('inactive');
-    if ($button.data('action') == "increase") {
-      var newVal = parseFloat(oldValue) + 1;
-    } else {
-     // Don't allow decrementing below 1
-      if (oldValue > 1) {
-        var newVal = parseFloat(oldValue) - 1;
-      } else {
-        newVal = 1;
-        $button.addClass('inactive');
-      }
-    }
-    $button.parent().find('.quantity').val(newVal);
-    e.preventDefault();
-  });
-
-  $("[data-toggle=tooltip]").tooltip();
-
 
 });
