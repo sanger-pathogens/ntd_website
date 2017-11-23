@@ -6639,6 +6639,10 @@ footer .color-bar {
   color:#074887;
 }
 
+.blogCaption {
+  font-size: 12px !important;
+}
+
 .blogContent .para-list.list-unstyled {
   display: inline-block !important;
   margin-bottom: 25px;
