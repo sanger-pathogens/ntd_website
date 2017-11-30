@@ -1,0 +1,128 @@
+/*================= Theme - color 1 ==================*/
+.color-1 {
+	color:#074887!important;
+}
+
+.color-2 {
+	color:#480B8D!important;
+}
+
+.color-3 {
+	color:#D07B00!important;
+}
+
+.color-4 {
+	color:#BD002F!important;
+}
+
+.color-5 {
+	color:#008B5A!important;
+}
+
+.color-6 {
+	color:#D09F00!important;
+}
+
+.bg-color-1 {
+	background-color:#074887!important;
+}
+
+.bg-color-2 {
+	background-color:#480B8D!important;
+}
+
+.bg-color-3 {
+	background-color:#D07B00!important;
+}
+
+.bg-color-4 {
+	background-color:#BD002F!important;
+}
+
+.bg-color-5 {
+	background-color:#008B5A!important;
+}
+
+.bg-color-6{
+	background-color:#D09F00!important;
+}
+
+.border-color-1 {
+	border-color:#074887!important;
+}
+
+/*=== NAVBAR  ===*/
+.navbar-default.lightHeader .navbar-nav > li.active.color-1 > a,.navbar-nav > li.color-1 > a:hover span {
+	color:#074887;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li.color-1 > a > span {
+		border-color:#074887;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li.color-2 > a > span {
+		border-color:#480B8D;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li.color-3 > a > span {
+		border-color:#D07B00;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li.color-4 > a > span {
+		border-color:#BD002F;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li.color-5 > a > span {
+		border-color:#008B5A;
+	}
+}
+
+.navbar-nav > li.color-2 > a:hover span {
+	color:#480B8D;
+}
+
+.navbar-nav > li.color-5 > a:hover span{
+	color:#008B5A;
+}
+
+a,.navbar-nav > li.color-3 > a:hover span,.navbar-nav > li.color-4 > a:hover span,.mainIntro h2 {
+	color:#074887;
+}
+
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover,.isotopeFilters ul.filter > li.active a {
+	background-color:#D07B00;
+}
+
+
+.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover {
+	border-color:#D07B00;
+}
+
+/*=== BUTTONS ===*/
+
+.btn-primary,.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary:active:focus,.btn-primary:active:hover,.navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover,.countUpSection .counterInfo{
+	background-color:#D07B00;
+}
+
+.block .list-inline.btn-yellow .btn-primary:hover {
+	background-color:#074887;
+}
+
+/*=== GENERAL ===*/
+
+a,.sectionTitle h2,.navbar-nav > li.color-3 > a:hover span,.navbar-nav > li.color-4 > a:hover span {
+	color:#074887;
+}
+
+.sectionTitle h2 span.bg-color-4,.sectionTitle h2 span.bg-color-4:after,.sectionTitle h2 span.bg-color-4:before {
+	background-color:#BD002F!important;
+}
