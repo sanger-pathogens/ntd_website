@@ -43,12 +43,33 @@
 	background-color:#008B5A!important;
 }
 
-.bg-color-6{
-	background-color:#D09F00!important;
+.bg-color-6,
+.courseList .media-body .list-inline.btnPart.btn-pink > li a.btn-primary:hover {
+  background-color: #D09F00 !important;
 }
 
 .border-color-1 {
 	border-color:#074887!important;
+}
+
+.border-color-2 {
+  border-color: #480B8D !important;
+}
+
+.border-color-3 {
+  border-color: #D07B00 !important;
+}
+
+.border-color-4 {
+  border-color: #BD002F !important;
+}
+
+.border-color-5 {
+  border-color: #008B5A !important;
+}
+
+.border-color-6 {
+  border-color: #D09F00 !important;
 }
 
 /*=== NAVBAR  ===*/
