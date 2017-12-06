@@ -225,6 +225,18 @@
     </image:image>
   </url>
   <url>
+    <loc>https://ntd.fantasmagorical.co.uk/blogs/professor-peter-nejsum.html</loc> 
+    <priority>0.8</priority>
+    <image:image>
+       <image:loc>https://ntd.fantasmagorical.co.uk/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://ntd.fantasmagorical.co.uk/img/blogs/professor-peter-nejsum.jpg</image:loc>
+       <image:caption>Professor Peter Nejsum, Aarhus University</image:caption>
+    </image:image>
+  </url>
+  <url>
 		<loc>https://ntd.fantasmagorical.co.uk/where.html</loc> 
 		<priority>0.8</priority>
 		<image:image>
