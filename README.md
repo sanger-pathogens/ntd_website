@@ -2,7 +2,14 @@
 
 ## Overview
 
-* [Updating collaborator information](#updating-collaborator-information)
+* [Updating collaborator information](#modifying-collaborator-information)
+	* [Accessing simplemaps](#accessing-simplemaps)
+	* [Making map modifications](#making-map-modifications)
+	* [Adding a new city](#adding-a-new-city)
+	* [Saving map modifications](#saving-map-modifications)
+	* [Downloading modified map](#downloading-modified-map)
+	* [Uploading modified map to live site](#uploading-modified-map-to-live-site)
+	* [Map label formatting](#map-label-formatting)
 
 ## Modifying collaborator information
 
@@ -19,16 +26,16 @@ There is a Google Sheets table [here](https://docs.google.com/spreadsheets/d/11r
 * Click on **"Options"** and select **"View Order Details"**
 * The current map is *World Map (Bnl3ZB7A)*. Click **"View"**
 
-### Making changes to map data
+### Making map modifications
 
 * Go to the **"Locations"** tab.
 * Update map data
   * **Option 1: Update existing collaborator details (no new city)**:- These updates are done in the "Description" column.  See [map label formatting](#map-label-formatting) for more information.
-  * **Option 2: Update existing collaborator details (new city)**:- Remove the existing collaborator details from the "Description" column. Add new city with the collaborator details by following the instructions for [adding a new location](#adding-a-new-location-to-the-map).
+  * **Option 2: Update existing collaborator details (new city)**:- Remove the existing collaborator details from the "Description" column. Add new city with the collaborator details by following the instructions for [adding a new location](#adding-a-new-city).
   * **Option 3: Add a new collaborator to an existing city**:- These updates are done in the "Description" column.  See [map label formatting](#map-label-formatting) for more information.
-  * **Option 4: Add a new collaborator to a new city**:- Add new city with the collaborator details by following the instructions [adding a new location](#adding-a-new-location-to-the-map).
+  * **Option 4: Add a new collaborator to a new city**:- Add new city with the collaborator details by following the instructions [adding a new location](#adding-a-new-city).
 
-### Adding a new location to the map
+### Adding a new city
 
 Where collaborators have moved to a new research center or a new collaborator has been added where there is no city pin on the map, a new location will need to be added.
 
@@ -38,19 +45,19 @@ Where collaborators have moved to a new research center or a new collaborator ha
 
 You can check your changes on the map above as it updates in real time.
 
-### Saving your changes
+### Saving map modifications
 
 If you don't save the edits you have just made, you're going to have to do them all over again next time you want to update something on the map. So...YOU **MUST** SAVE YOUR CHANGES!!!
 
 *  Go to the **"Code"** tab and click **"Save Mapdata and Reload Map"**
 
-### Downloading the new map
+### Downloading modified map
 
 * Go to the **"Finish"** tab.
 * Click on **"Download Map (.zip)"**
 * Uncompress the folder, you will only need to upload **mapdata.js**.
 
-### Uploading the new map to the live site
+### Uploading modified map to live site
  
 * Follow the instructions for forking the NTD website repository and creating a branch.
 * On your branch, overwrite the **mapdata.js** in `plugins/simplemaps` with the **mapdata.js** file you just downloaded
