@@ -119,7 +119,7 @@ Some cities have been split into multiple rows as there were too many for the fo
 
 Split the collaborators logically by institution where possible. You can't put 3 markers with a "City" of London as the markers would overlap. To get around this, use more specific locations with enough distance between them e.g. Kew Gardens and Stratford.
 
-You can use the instructions below for [adding a new location](#adding-a-new-location-to-the-map). Instead of using a city (e.g. London), use the specific location (e.g. Kew Gardens) in the City/Address field to calculate the Lat/Lng values.  You can then set the Name field to London.
+You can use the instructions for [adding a new city](#adding-a-new-city). Instead of using a city (e.g. London), use the specific location (e.g. Kew Gardens) in the City/Address field to calculate the Lat/Lng values.  You can then set the Name field to London.
 
 #### Default settings (DO NOT UPDATE!)
 
