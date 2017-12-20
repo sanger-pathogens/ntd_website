@@ -21,7 +21,7 @@
     </image:image>
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/banner/banner-chlamydia-macrophage.jpg</image:loc>
-       <image:caption>Neglected tropical disease (NTD) - Schistosoma mansoni, trematode flatworms known as blood flukes by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Neglected tropical disease (NTD) - Schistosoma mansoni, trematode flatworms known as blood flukes by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntd-collage-filtered.jpg</image:loc>
@@ -34,6 +34,18 @@
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntd-collage-filtered.jpg</image:loc>
        <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://ntd.fantasmagorical.co.uk/about.html</loc> 
+    <priority>0.5</priority>
+    <image:image>
+       <image:loc>https://ntd.fantasmagorical.co.uk/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://ntd.fantasmagorical.co.uk/img/sanger-campus.png</image:loc>
+       <image:caption>Wellcome Genome Campus, Hinxton</image:caption>
     </image:image>
   </url>
   <url>
@@ -57,7 +69,7 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/typhoid-thumbnail.jpg</image:loc>
-       <image:caption>Typhoid thumbnail - Salmonella typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Typhoid thumbnail - Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/guinea-worm-thumbnail.jpg</image:loc>
@@ -69,11 +81,11 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/schistosomiasis-thumbnail.jpg</image:loc>
-       <image:caption>Schistosomiasis thumbnail - Schistosoma mansoni by David Goulding, Wellcome Trust Sanger Institute (WTSI) </image:caption>
+       <image:caption>Schistosomiasis thumbnail - Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI) </image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/whipworm-thumbnail.jpg</image:loc>
-       <image:caption>Whipworm thumbnail - Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Whipworm thumbnail - Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
   </url>
 	<url>
@@ -121,7 +133,7 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/schistosoma-mansoni-sm.jpg</image:loc>
-       <image:caption>Schistosomiasis - Schistosoma mansoni by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Schistosomiasis - Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
 	</url>
 	<url>
@@ -133,7 +145,7 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/salmonella-typhi-2-sm.jpg</image:loc>
-       <image:caption>Typhoid - Salmonella Typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Typhoid - Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
 	</url>
 	<url>
@@ -157,7 +169,7 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/chlamydia-angele-bernard-sm.jpg</image:loc>
-       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard(WTSI), Paul Scott (WTSI) and Ian Clarke (University of Southampton)</image:caption>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
     </image:image>
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/trachoma-ncomms10688-lg.jpg</image:loc>
@@ -185,11 +197,11 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/blogs/angele-benard.jpg</image:loc>
-       <image:caption>Angele Benard, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Angele Benard, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/blogs/daryl-domman.jpg</image:loc>
-       <image:caption>Daryl Domman, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
   </url>
   <url>
@@ -201,11 +213,11 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/blogs/angele-benard.jpg</image:loc>
-       <image:caption>Angele Benard, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Angele Benard, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/chlamydia-angele-bernard-lg.jpg</image:loc>
-       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP courtesy of Angèle Bénard (WTSI), Paul Scott (WTSI) and Ian Clarke (University of Southampton)</image:caption>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP courtesy of Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
     </image:image> 
   </url>
   <url>
@@ -217,11 +229,11 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/blogs/daryl-domman.jpg</image:loc>
-       <image:caption>Daryl Domman, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/imgimg/ntds/small/cholera-plate-daryl-domman-sm.jpg</image:loc>
-       <image:caption>Cholera on a plate by Daryl Domman, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Cholera on a plate by Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
   </url>
   <url>
@@ -261,11 +273,11 @@
     </image:image>		
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/schistosoma-mansoni-sm.jpg</image:loc>
-       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/schistosoma-mansoni-lg.jpg</image:loc>
-       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/schisosoma-mansoni-sm.jpg</image:loc>
@@ -317,19 +329,19 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/trichuris-muris-2-sm.jpg</image:loc>
-       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/trichuris-muris-2-lg.jpg</image:loc>
-       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/trichuris-muris-3-sm.jpg</image:loc>
-       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/trichuris-muris-3-lg.jpg</image:loc>
-       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/tom-crellen-fieldwork-1-sm.jpg</image:loc>
@@ -405,35 +417,35 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/salmonella-typhi-1-sm.jpg</image:loc>
-       <image:caption>Salmonella Typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/salmonella-typhi-1-lg.jpg</image:loc>
-       <image:caption>Salmonella Typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/salmonella-typhi-2-sm.jpg</image:loc>
-       <image:caption>Salmonella typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/salmonella-typhi-2-lg.jpg</image:loc>
-       <image:caption>Salmonella typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/salmonella-typhi-3-sm.jpg</image:loc>
-       <image:caption>Salmonella typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/salmonella-typhi-3-lg.jpg</image:loc>
-       <image:caption>Salmonella typhi by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/etec-host-organoid-sm.jpg</image:loc>
-       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/etec-host-organoid-lg.jpg</image:loc>
-       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/ecoli-niaid-sem-sm.jpg</image:loc>
@@ -445,11 +457,11 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/chlamydia-angele-bernard-sm.jpg</image:loc>
-       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (WTSI), Paul Scott (WTSI) and Ian Clarke (University of Southampton)</image:caption>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/chlamydia-angele-bernard-lg.jpg</image:loc>
-       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (WTSI), Paul Scott (WTSI) and Ian Clarke (University of Southampton)</image:caption>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/cholera-building-daryl-domman-sm.jpg</image:loc>
@@ -477,19 +489,19 @@
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/chlamydia-1-sm.jpg</image:loc>
-       <image:caption>Chlamydia by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/chlamydia-1-lg.jpg</image:loc>
-       <image:caption>Chlamydia by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/small/chlamydia-2-sm.jpg</image:loc>
-       <image:caption>Chlamydia by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
     <image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/large/chlamydia-2-lg.jpg</image:loc>
-       <image:caption>Chlamydia by David Goulding, Wellcome Trust Sanger Institute (WTSI)</image:caption>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
   </url>
 </urlset>

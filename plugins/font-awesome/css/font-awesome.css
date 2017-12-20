@@ -223,3 +223,9 @@
 .fa-bug:before{
   content:"\f188";
 }
+.fa-camera:before {
+  content: "\f030"; 
+}
+.fa-info:before {
+  content: "\f129"; 
+}

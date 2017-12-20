@@ -1704,7 +1704,7 @@ aside {
 @media (min-width: 1200px) {
   .functionList > li {
     margin-right: 15px;
-    padding: 0 5px;
+    padding: 0 10px;
   }
 }
 
@@ -1751,9 +1751,9 @@ aside {
   margin-right: 0;
 }
 
-.functionList > li:first-child i {
+/*.functionList > li:first-child i {
   margin-right: 0;
-}
+}*/ 
 
 /*=== 2.13 CART ===*/
 .navbar-default .cart-dropdown {
@@ -6598,7 +6598,7 @@ footer .color-bar {
   text-align: justify !important;
 }
 
-.mainSection p {
+.mainSection p, .aboutSection p {
   text-align: justify !important;
 }
 
@@ -6650,6 +6650,16 @@ footer .color-bar {
 .blogContent .para-list.list-unstyled li {
   color: #074887 !important;
   text-align: center;
+}
+
+.aboutSection .btn-primary {
+  background-color: #074887 !important;
+  border-color: #074887 !important;
+}
+
+.aboutSection .btn-primary:hover {
+  background-color: #D07B00 !important;
+  border-color: #D07B00 !important;
 }
 
 @media (min-width: 992px) {
