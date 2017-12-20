@@ -778,7 +778,7 @@ var simplemaps_worldmap_mapdata={
       lat: 23.713,
       lng: 90.4,
       name: "Dhaka",
-      description: "<strong>Prof. John Clemens</strong><br />icddr,b<br /><em>Cholera pathogenesis</em><br /><br /><strong>Dr. Firdausi Qadri</strong><br />icddr,b<br /><em>Control of enteric fever through vaccination</em>"
+      description: "<strong>Prof. John Clemens</strong><br />icddr,b<br /><em>Cholera pathogenesis</em><br /><br /><strong>Dr. Rashidul Haque</strong><br />icddr,b<br /><em>Cryptosporidium in Bangladesh</em><br /><br /><strong>Dr. Firdausi Qadri</strong><br />icddr,b<br /><em>Control of enteric fever through vaccination</em>"
     },
     "11": {
       lat: 56.461,
@@ -808,7 +808,7 @@ var simplemaps_worldmap_mapdata={
       lat: 55.858,
       lng: -4.243,
       name: "Glasgow",
-      description: "<strong>Prof. Rick Maizels</strong><br />University of Glasgow<br /><em>Nippostrongylus brasiliensisgenome project, WormBase, WormBase-ParaSite</em>"
+      description: "<strong>Dr. C. Alexander</strong><br />Scottish microbiology reference laboratories<br /><em>Cryptosporidium in Scotland</em><br /><br /><strong>Prof. Rick Maizels</strong><br />University of Glasgow<br /><em>Nippostrongylus brasiliensisgenome project, WormBase, WormBase-ParaSite</em>"
     },
     "16": {
       lat: 57.701,
@@ -1036,13 +1036,37 @@ var simplemaps_worldmap_mapdata={
       lat: 51.619,
       lng: 0.075,
       name: "London",
-      description: "<strong>Prof. Brian Spratt</strong><br />Imperial College London<br /><em>Burkholderia pseudomallei and Chlamydia trachomatis</em><br /><br /><strong>Prof. Joanne Webster</strong><br />Imperial College London<br /><em>Schistosome population genomics</em><br /><br /><strong>Dr. Abigail Clements</strong><br />Imperial College London<br /><em>Shigella pathogenesis</em>"
+      description: "<strong>Prof. Brian Spratt</strong><br />Imperial College London<br /><em>Burkholderia pseudomallei and Chlamydia trachomatis</em><br /><br /><strong>Prof. Joanne Webster</strong><br />Imperial College London<br /><em>Schistosome population genomics</em><br /><br /><strong>Dr. Abigail Clements</strong><br />Imperial College London<br /><em>Shigella pathogenesis</em><br /><br /><strong>Dr. Pascale Kropf</strong><br />Imperial College London<br /><em>Leishmania aethiopica pathogenesis</em>"
     },
     "54": {
       lat: 51.388,
       lng: -0.508,
       name: "London",
       description: "<strong>Dr. Martin Holland</strong><br />London School of Hygiene and Tropical Medicine<br /><em>C. trachomatis genomics projects</em><br /><br /><strong>Dr. Esmeralda Valiente</strong><br />London School of Hygiene and Tropical Medicine<br /><em>Cholera functional genomics projects; glycosylation systems in Clostridium difficile and their potential role in bacterial virulence</em><br /><br /><strong>Prof. Alisons Elliott</strong><br />London School of Hygiene and Tropical Medicine<br /><em>Schistosomiasis</em>"
+    },
+    "55": {
+      lat: 38.032,
+      lng: -78.478,
+      name: "Charlottesville",
+      description: "<strong>Prof. W. Petri</strong><br />University of Virginia<br /><em>Cryptosporidium in Bangladesh</em><br /><br /><strong>Dr. C. Gilchrist</strong><br />University of Virginia<br /><em>Cryptosporidium in Bangladesh</em>"
+    },
+    "56": {
+      lat: 0.066,
+      lng: 32.474,
+      name: "Entebbe",
+      description: "<strong>Prof. Alisons Elliott</strong><br />London School of Hygiene and Tropical Medicine<br /><em>Schistosomiasis</em>"
+    },
+    "57": {
+      lat: 26.285,
+      lng: 50.205,
+      name: "Daharan",
+      description: "<strong>Prof. Suman Rijal</strong><br />B P Koirala Institute of Health Sciences<br /><em>Genomics of Leishmania donovani in Nepal</em>"
+    },
+    "58": {
+      lat: 12.6,
+      lng: 37.468,
+      name: "Gondar",
+      description: "<strong>Dr. Rezika Mohammed</strong><br />University of Gondar<br /><em>Leishmania aethiopica pathogenesis</em>"
     }
   },
   labels: {},
