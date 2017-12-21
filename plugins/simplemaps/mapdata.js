@@ -1067,6 +1067,12 @@ var simplemaps_worldmap_mapdata={
       lng: 37.468,
       name: "Gondar",
       description: "<strong>Dr. Rezika Mohammed</strong><br />University of Gondar<br /><em>Leishmania aethiopica pathogenesis</em>"
+    },
+    "59": {
+      lat: 6.246,
+      lng: -75.575,
+      name: "Medellin",
+      description: "<strong>Prof. Sonia Agudelo</strong><br />Universidad de Antioquia<br /><em>Trichuris trichiura</em>"
     }
   },
   labels: {},

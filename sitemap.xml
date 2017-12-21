@@ -84,8 +84,8 @@
        <image:caption>Schistosomiasis thumbnail - Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI) </image:caption>
     </image:image>
     <image:image>
-       <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/whipworm-thumbnail.jpg</image:loc>
-       <image:caption>Whipworm thumbnail - Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+       <image:loc>https://ntd.fantasmagorical.co.uk/img/ntds/thumbnails/trichuriasis-thumbnail.jpg</image:loc>
+       <image:caption>Trichuriasis thumbnail - Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
     </image:image>
   </url>
 	<url>
@@ -149,7 +149,7 @@
     </image:image>
 	</url>
 	<url>
-		<loc>https://ntd.fantasmagorical.co.uk/whipworm.html</loc>
+		<loc>https://ntd.fantasmagorical.co.uk/trichuriasis.html</loc>
 		<priority>0.9</priority>
 		<image:image>
        <image:loc>https://ntd.fantasmagorical.co.uk/img/ntd-collage-filtered.jpg</image:loc>
