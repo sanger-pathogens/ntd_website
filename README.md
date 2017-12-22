@@ -3,10 +3,11 @@
 ## Overview
 
 * [Website structure](#website-structure)
+* [Updating the NTD website](#updating-the-ntd-website)
 * [Styling](#styling)
-	* [Minifying stylesheets](#minifying-stylesheets)
+	* [Making changes to stylesheets](#making-changes-to-stylesheets)
 * [Javascript](#javascript)
-	* [Minifying JS files](#minifying-js-files)
+	* [Making changes to JS](#making-changes-to-js)
 * [Images and videos](#images-and-videos)
 * [Include sections](#include-sections)
 * [Plugins](#plugins)
@@ -53,6 +54,16 @@ The table below contains the locations of the main components for the site:
 | Individual NTD pages   | `./ntds` (see [Individual NTD pages](#individual-ntd-pages))      |
 | NTD researcher stories | `./blogs` (see [NTD researcher stories](#ntd-researcher-stories)) |
 
+## Updating the NTD website
+
+* If you haven't done so, make a fork of the [NTD website repository](https://github.com/sanger-pathogens/ntd_website.git).
+* **Make sure your fork is up to date before making any changes!**
+* Checkout a new branch e.g. `git checkout -b <my_branch>`.
+* Make your changes (see sections below), add and commit them.
+* Push your branch to your fork: `git push origin <my_branch>`.
+* Go to the URL this gives you to merge your changes back to sanger-pathogens.
+* Create and tag a new release (from sanger-pathogens repository).
+* Follow the instructions on the [Pathogens wiki](http://mediawiki.internal.sanger.ac.uk/index.php/Maintaining_NTD_website) to upload the release and make your changes live.
 
 ## Styling
 
@@ -68,9 +79,11 @@ Some of the plugins that the site uses have their own stylesheets which can be f
 
 *N.B. The Font Awesome (`./plugins/font-awesome`) stylesheet has been reduced to contain only the icons used by the site. Any new icons will need to be added to this stylesheet.*
 
-### Minifying stylesheets
+### Making changes to stylesheets
 
-The two main stylesheets have been minified to help with SEO. When doing style updates, both the expanded and minified stylesheets will need to be modified. Add changes to the expanded stylesheet first. Then, copy the code into a minifier (e.g.  [https://cssminifier.com/](https://cssminifier.com/)) to get the reduced file.  **NEVER update the minified file only**.
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Update the expanded stylesheet. **NEVER update the minified file only.**
+* Minify the expanded stylesheet (e.g. [https://cssminifier.com/](https://cssminifier.com/))
 
 ## Javascript
 
@@ -80,10 +93,13 @@ Javascript (JS) has been split into separate files to aid loading times and SEO.
 * `./js/faq.js` - JS used for accordian on Who page
 * `./js/homepage-banner.js` - JS used for homepage banner 
 * `./js/homepage-counter.js` - JS used for homepage counter
+* `./js/pugins/simplemaps/mapdata.js` - JS uses for map on Where page (see [Updating collaborator information](#updating-collaborator-information))
 
-### Minifying JS files
+### Making changes to JS
 
-As with the stylesheet, the main JS file has been minified. When doing JS updates, both the expanded and minified JS files will need to be modified. Add changes to the expanded JS file first. Then, copy the code into a minifier (e.g.  [https://www.minifier.org/](https://www.minifier.org/)) to get the reduced file.  **NEVER update the minified file only**. 
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Update the expanded JS file. **NEVER update the minified file only.**
+* Minify the expanded JS file (e.g. [https://www.minifier.org/](https://www.minifier.org/))
 
 ## Images and videos
 
@@ -97,9 +113,11 @@ As with the stylesheet, the main JS file has been minified. When doing JS update
 
 ## Seminars
 
+Seminar information is found in the right-hand sidebar on both the homepage (`./index.html`) and the seminar details page (`./seminar.html`). 
 
-
-
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Update seminar date, time, contact and location information in `./includes/ntd-seminar.html`. This will update the sidebar content.
+* Update the seminar details and description in `./seminar.html`.
 
 ## Updating collaborator information
 
@@ -149,10 +167,8 @@ If you don't save the edits you have just made, you're going to have to do them 
 
 ### Uploading modified map to live site
  
-* Follow the instructions for forking the NTD website repository and creating a branch.
-* On your branch, overwrite the **mapdata.js** in `plugins/simplemaps` with the **mapdata.js** file you just downloaded
-* Follow the instructions for merging your changes.
-* Follow the instructions for uploading your changes to the live site.
+* See [Updating the NTD website](#updating-the-ntd-website)
+* On your branch, you will need to overwrite the **mapdata.js** in `plugins/simplemaps` with the **mapdata.js** file you just downloaded
 
 ### Map label formatting
 
