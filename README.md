@@ -3,6 +3,14 @@
 ## Overview
 
 * [Website structure](#website-structure)
+* [Styling](#styling)
+* [Javascript](#javascript)
+* [Images and videos](#images-and-videos)
+* [Include sections](#include-sections)
+* [Plugins](#plugins)
+* [Individual NTD pages](#individual-ntd-pages)
+* [NTD researcher stories](#ntd-researcher-stories)
+* [Seminars](#seminars)
 * [Updating collaborator information](#updating-collaborator-information)
 	* [Accessing simplemaps](#accessing-simplemaps)
 	* [Making map modifications](#making-map-modifications)
@@ -17,18 +25,18 @@
 
 The table below gives a brief description of the main landing pages for the site:
 
-| File                       | Description                                                 |
-| :-----------               | :--------------------                                       |
-| `./index.html`             | home/landing page                                           |
-| `./about.html`             | general information                                         |
-| `./what.html`              | list of NTDS (see [What](#what))                            |
-| `./where.html`             | Map of NTD collaborators (see [Where](#where))              |
-| `./who.html`               | list of NTD researcher stories/blogs (see [Who](#who))      |
-| `./why.html`               | FAQs                                                        |
-| `./gallery.html`           | responsive gallery of site images (see [Gallery](#gallery)) |
-| `./seminar.html`           | seminar details (see [Seminars](#seminars))                 |
-| `./includes/ntds/bacteria` | list of bacteria for what page                              |
-| `./includes/ntds/parasites`| list of parasites for what page                             |
+| File                       | Description                                                      |
+| :-----------               | :--------------------                                            |
+| `./index.html`             | home/landing page                                                |
+| `./about.html`             | general information                                              |
+| `./what.html`              | list of NTDS (see [Individual NTD pages](#individual-ntd-pages)) |
+| `./where.html`             | Map of NTD collaborators (see [Updating collaborator information](#updating-collaborator-information)) |
+| `./who.html`               | list of NTD researcher stories/blogs (see [NTD researcher stories](#ntd-researcher-stories)))      |
+| `./why.html`               | FAQs                                                             |
+| `./gallery.html`           | responsive gallery of site images (see [Images and videos](#images-and-videos)) |
+| `./seminar.html`           | seminar details (see [Seminars](#seminars))                      |
+| `./includes/ntds/bacteria` | list of bacteria for what page (see [Individual NTD pages](#individual-ntd-pages))                              |
+| `./includes/ntds/parasites`| list of parasites for what page (see [Individual NTD pages](#individual-ntd-pages))                            |
 
 The table below contains the locations of the main components for the site:
 
@@ -43,6 +51,22 @@ The table below contains the locations of the main components for the site:
 | Individual NTD pages   | `./ntds` (see [Individual NTD pages](#individual-ntd-pages))      |
 | NTD researcher stories | `./blogs` (see [NTD researcher stories](#ntd-researcher-stories)) |
 
+
+## Styling
+
+## Javascript
+
+## Images and videos
+
+## Include sections
+
+## Plugins
+
+## Individual NTD pages
+
+## NTD researcher stories
+
+## Seminars
 
 
 
