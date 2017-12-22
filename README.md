@@ -4,7 +4,9 @@
 
 * [Website structure](#website-structure)
 * [Styling](#styling)
+	* [Minifying stylesheets](#minifying-stylesheets)
 * [Javascript](#javascript)
+	* [Minifying JS files](#minifying-js-files)
 * [Images and videos](#images-and-videos)
 * [Include sections](#include-sections)
 * [Plugins](#plugins)
@@ -31,7 +33,7 @@ The table below gives a brief description of the main landing pages for the site
 | `./about.html`             | general information                                              |
 | `./what.html`              | list of NTDS (see [Individual NTD pages](#individual-ntd-pages)) |
 | `./where.html`             | Map of NTD collaborators (see [Updating collaborator information](#updating-collaborator-information)) |
-| `./who.html`               | list of NTD researcher stories/blogs (see [NTD researcher stories](#ntd-researcher-stories)))      |
+| `./who.html`               | list of NTD researcher stories/blogs (see [NTD researcher stories](#ntd-researcher-stories))      |
 | `./why.html`               | FAQs                                                             |
 | `./gallery.html`           | responsive gallery of site images (see [Images and videos](#images-and-videos)) |
 | `./seminar.html`           | seminar details (see [Seminars](#seminars))                      |
@@ -54,7 +56,34 @@ The table below contains the locations of the main components for the site:
 
 ## Styling
 
+The site comes from a template.  Original stylesheets which have extra styles that are not used in the site (but may be in future) can be found in `css/original`.  Both `style.css` and `color-option1.css` are reduced versions of the original css files and should only contain styles relevant to the current site.
+
+The main stylesheets used by the site are:
+
+* `./css/style.min.css` (see [Minifying stylesheets](#minifying-stylesheets)) 
+* `./css/color-option1.min.css` (see [Minifying stylesheets](#minifying-stylesheets)) 
+* `./css/fonts.css`
+
+Some of the plugins that the site uses have their own stylesheets which can be found in `./plugins`. 
+
+*N.B. The Font Awesome (`./plugins/font-awesome`) stylesheet has been reduced to contain only the icons used by the site. Any new icons will need to be added to this stylesheet.*
+
+### Minifying stylesheets
+
+The two main stylesheets have been minified to help with SEO. When doing style updates, both the expanded and minified stylesheets will need to be modified. Add changes to the expanded stylesheet first. Then, copy the code into a minifier (e.g.  [https://cssminifier.com/](https://cssminifier.com/)) to get the reduced file.  **NEVER update the minified file only**.
+
 ## Javascript
+
+Javascript (JS) has been split into separate files to aid loading times and SEO.  The main JS files used by the site are:
+
+* `./js/custom.min.js` - JS used across the site
+* `./js/faq.js` - JS used for accordian on Who page
+* `./js/homepage-banner.js` - JS used for homepage banner 
+* `./js/homepage-counter.js` - JS used for homepage counter
+
+### Minifying JS files
+
+As with the stylesheet, the main JS file has been minified. When doing JS updates, both the expanded and minified JS files will need to be modified. Add changes to the expanded JS file first. Then, copy the code into a minifier (e.g.  [https://www.minifier.org/](https://www.minifier.org/)) to get the reduced file.  **NEVER update the minified file only**. 
 
 ## Images and videos
 
