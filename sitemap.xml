@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"> 
+  <url>
+    <loc>https://neglectedtropicaldiseases.org/index.html</loc>
+		<priority>1.0</priority>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/banner/banner-chlamydia-macrophage.jpg</image:loc>
+       <image:caption>Neglected tropical disease (NTD) banner - human macrophage rupturing after infection with Chlamydia by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/banner/banner-leishmania-mexicana.jpg</image:loc>
+       <image:caption>Neglected tropical disease (NTD) banner - leishmania mexicana parasites in the amastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>		
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/banner/banner-trichuris-muris.jpg</image:loc>
+       <image:caption>Neglected tropical disease (NTD) banner - Trichuris muris, a parasitic nematode affecting mice by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/banner/banner-cholera-sem.jpg</image:loc>
+       <image:caption>Neglected tropical disease (NTD) banner - Vibrio cholerae, a bacterium which infects the digestive system from Kirn et al. 2000</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/banner/banner-chlamydia-macrophage.jpg</image:loc>
+       <image:caption>Neglected tropical disease (NTD) - Schistosoma mansoni, trematode flatworms known as blood flukes by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/seminar.html</loc> 
+		<priority>0.5</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://neglectedtropicaldiseases.org/about.html</loc> 
+    <priority>0.5</priority>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/sanger-campus.png</image:loc>
+       <image:caption>Wellcome Genome Campus, Hinxton</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/what.html</loc> 
+		<priority>1.0</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/cholera-sem.jpg</image:loc>
+       <image:caption>Cholera thumbnail - scanning electron microscope image of Vibrio cholerae bacteria, which infect the digestive system.</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/etec-thumbnail.jpg</image:loc>
+       <image:caption>ETEC thumbnail - Scanning electrion microscopy (SEM) of Escherichia coli, grown in culture and adhered to a cover slip by NIAID under CC BY 2.0</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/trachoma-thumbnail.jpg</image:loc>
+       <image:caption>Trachoma thumbnail - Human macrophage rupturing after infection with Chlamydia by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/typhoid-thumbnail.jpg</image:loc>
+       <image:caption>Typhoid thumbnail - Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/guinea-worm-thumbnail.jpg</image:loc>
+       <image:caption>Guinea worm disease thumbnail - Emerging Guinea worm (Dracunculus medinensis)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/leishmaniasis-thumbnail.jpg</image:loc>
+       <image:caption>Leishmaniasis thumbnail - Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/schistosomiasis-thumbnail.jpg</image:loc>
+       <image:caption>Schistosomiasis thumbnail - Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI) </image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/thumbnails/trichuriasis-thumbnail.jpg</image:loc>
+       <image:caption>Trichuriasis thumbnail - Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+  </url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/ntds/cholera.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/cholera-sem-sm.jpg</image:loc>
+       <image:caption>Vibrio cholerae, a bacterium which infects the digestive system from Kirn et al. 2000</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/etec-infections.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/ecoli-niaid-sem-sm.jpg</image:loc>
+       <image:caption>Colourized scanning electrion microscope (SEM) image of Escherichia coli, grown in culture and adhered to a cover slip by NIAID under CC BY 2.0</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/guinea-worm-disease.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/emerging-guniea-worm-sm.jpg</image:loc>
+       <image:caption>Emerging Guineas worm - Guinea worm disease</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/schistosomiasis.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/schistosoma-mansoni-sm.jpg</image:loc>
+       <image:caption>Schistosomiasis - Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/typhoid.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/salmonella-typhi-2-sm.jpg</image:loc>
+       <image:caption>Typhoid - Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/trichuriasis.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/trichuris-muris-1-sm.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/trachoma.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/chlamydia-angele-bernard-sm.jpg</image:loc>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
+    </image:image>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/trachoma-ncomms10688-lg.jpg</image:loc>
+       <image:caption>Phylogenic tree of Chlamydia trachomatis chromosomal sequences using single nucleotide polymorphisms (SNPs), with inferred recombined regions removed - Andersson et al. doi:10.1038/ncomms10688</image:caption>
+    </image:image>
+	</url>
+	<url>
+		<loc>https://neglectedtropicaldiseases.org/leishmania.html</loc>
+		<priority>0.9</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/leishmania-mexicana-3-sm.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+	</url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/who.html</loc> 
+		<priority>0.8</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/blogs/angele-benard.jpg</image:loc>
+       <image:caption>Angele Benard, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/blogs/daryl-domman.jpg</image:loc>
+       <image:caption>Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/blogs/seeing-through-blindness.html</loc> 
+		<priority>0.8</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/blogs/angele-benard.jpg</image:loc>
+       <image:caption>Angele Benard, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/chlamydia-angele-bernard-lg.jpg</image:loc>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP courtesy of Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
+    </image:image> 
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/blogs/pandemic-on-a-plate.html</loc> 
+		<priority>0.8</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/blogs/daryl-domman.jpg</image:loc>
+       <image:caption>Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/imgimg/ntds/small/cholera-plate-daryl-domman-sm.jpg</image:loc>
+       <image:caption>Cholera on a plate by Daryl Domman, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://neglectedtropicaldiseases.org/blogs/hooked-on-worms.html</loc> 
+    <priority>0.8</priority>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/blogs/professor-peter-nejsum.jpg</image:loc>
+       <image:caption>Professor Peter Nejsum, Aarhus University</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/where.html</loc> 
+		<priority>0.8</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/why.html</loc> 
+		<priority>0.8</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+  </url>
+  <url>
+		<loc>https://neglectedtropicaldiseases.org/gallery.html</loc> 
+		<priority>0.7</priority>
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntd-collage-filtered.jpg</image:loc>
+       <image:caption>Collage of neglected tropical diseases (NTDs) such as cholera (Vibrio cholerae), leishmaniasis, Guinea worm disease, chlamydia, enterotoxigenic Escherichia coli, schistomsomiasis, whipworm, trachoma and typhoid. Contains images by Wellcome Collection under CC BY</image:caption>
+    </image:image>		
+		<image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/schistosoma-mansoni-sm.jpg</image:loc>
+       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/schistosoma-mansoni-lg.jpg</image:loc>
+       <image:caption>Schistosoma mansoni by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/schisosoma-mansoni-sm.jpg</image:loc>
+       <image:caption>Schistosoma mansoni flatworm, male with female by Wellcome Collection under CC BY-NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/schisosoma-mansoni-lg.jpg</image:loc>
+       <image:caption>Schistosoma mansoni flatworm, male with female by Wellcome Collection under CC BY-NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/leishmania-mexicana-sm.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/leishmania-mexicana-lg.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/leishmania-mexicana-2-sm.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the amastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/leishmania-mexicana-2-lg.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the amastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/leishmania-mexicana-3-sm.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/leishmania-mexicana-3-lg.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasites in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/leishmania-mexicana-4-sm.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasite in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/leishmania-mexicana-4-lg.jpg</image:loc>
+       <image:caption>Leishmania mexicana parasite in the promastigote stage by Wellcome Collection under CC BY</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/trichuris-muris-1-sm.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/trichuris-muris-1-lg.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/trichuris-muris-2-sm.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/trichuris-muris-2-lg.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/trichuris-muris-3-sm.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/trichuris-muris-3-lg.jpg</image:loc>
+       <image:caption>Trichuris muris, a parasitic nematode affecting mice by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-1-sm.jpg</image:loc>
+       <image:caption>Bovine schistosomes in Senegal - An adult worm dissected from the intestinal vasculature of a cow in a Northern Senegalese abattoir by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-1-lg.jpg</image:loc>
+       <image:caption>Bovine schistosomes in Senegal - An adult worm dissected from the intestinal vasculature of a cow in a Northern Senegalese abattoir by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-2-sm.jpg</image:loc>
+       <image:caption>cooping for snails - Technician Moses Adriko scoops for Biomphalaria snails around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-2-lg.jpg</image:loc>
+       <image:caption>cooping for snails - Technician Moses Adriko scoops for Biomphalaria snails around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-3-sm.jpg</image:loc>
+       <image:caption>Schistosomiasis transmission site - Villagers rely on Lake Victoria for fishing, bathing, washing clothes and drinking water by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-3-lg.jpg</image:loc>
+       <image:caption>Schistosomiasis transmission site - Villagers rely on Lake Victoria for fishing, bathing, washing clothes and drinking water by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-4-sm.jpg</image:loc>
+       <image:caption>Scooping for snails - Technician Moses Adriko scoops for Biomphalaria snails in Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-4-lg.jpg</image:loc>
+       <image:caption>Scooping for snails - Technician Moses Adriko scoops for Biomphalaria snails in Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-5-sm.jpg</image:loc>
+       <image:caption>Education and Awareness - Technician Moses Adriko shows Biomphalaria snails to children around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-5-lg.jpg</image:loc>
+       <image:caption>Education and Awareness - Technician Moses Adriko shows Biomphalaria snails to children around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/tom-crellen-fieldwork-6-sm.jpg</image:loc>
+       <image:caption>Children playing on boats - Children run over fishing boats around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/tom-crellen-fieldwork-6-lg.jpg</image:loc>
+       <image:caption>Children playing on boats - Children run over fishing boats around Lake Victoria in Uganda by Thomas Crellen</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/emerging-guniea-worm-sm.jpg</image:loc>
+       <image:caption>Emerging Guinea worm - Guinea worm disease</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/emerging-guniea-worm-lg.jpg</image:loc>
+       <image:caption>Emerging Guinea worm - Guinea worm disease</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/cholera-sem-sm.jpg</image:loc>
+       <image:caption>Scanning electron microscope image of Vibrio cholerae bacteria, which infect the digestive system (http://remf.dartmouth.edu/images/bacteriaSEM/source/1.html)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/cholera-sem-lg.jpg</image:loc>
+       <image:caption>Scanning electron microscope image of Vibrio cholerae bacteria, which infect the digestive system (http://remf.dartmouth.edu/images/bacteriaSEM/source/1.html)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/chlamydia-macrophage-sm.jpg</image:loc>
+       <image:caption>Human macrophage rupturing after infection with Chlamydia by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/chlamydia-macrophage-lg.jpg</image:loc>
+       <image:caption>Human macrophage rupturing after infection with Chlamydia by Wellcome Collection under CC BY -NC</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/salmonella-typhi-1-sm.jpg</image:loc>
+       <image:caption>Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/salmonella-typhi-1-lg.jpg</image:loc>
+       <image:caption>Salmonella Typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/salmonella-typhi-2-sm.jpg</image:loc>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/salmonella-typhi-2-lg.jpg</image:loc>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/salmonella-typhi-3-sm.jpg</image:loc>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/salmonella-typhi-3-lg.jpg</image:loc>
+       <image:caption>Salmonella typhi by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/etec-host-organoid-sm.jpg</image:loc>
+       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/etec-host-organoid-lg.jpg</image:loc>
+       <image:caption>Uninfected (naive) iPSC-derived organoid where lumen microinjections of ETEC take place by Leanne Kane, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/ecoli-niaid-sem-sm.jpg</image:loc>
+       <image:caption>Scanning electrion microscopy (SEM) of Escherichia coli, grown in culture and adhered to a cover slip by NIAID under CC BY 2.0</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/ecoli-niaid-sem-lg.jpg</image:loc>
+       <image:caption>Scanning electrion microscopy (SEM) of Escherichia coli, grown in culture and adhered to a cover slip by NIAID under CC BY 2.0</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/chlamydia-angele-bernard-sm.jpg</image:loc>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/chlamydia-angele-bernard-lg.jpg</image:loc>
+       <image:caption>McCoy cells infected with Chlamydia trachomatis expressing GFP by Angele Benard (Sanger), Paul Scott (Sanger), Ian Clarke and The Chlamydia Biobank (University of Southampton)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/cholera-building-daryl-domman-sm.jpg</image:loc>
+       <image:caption>Cholera building by Daryl Domman</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/cholera-building-daryl-domman-lg.jpg</image:loc>
+       <image:caption>Cholera building by Daryl Domman</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/cholera-plate-daryl-domman-sm.jpg</image:loc>
+       <image:caption>Cholera plate by Daryl Domman</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/cholera-plate-daryl-domman-lg.jpg</image:loc>
+       <image:caption>Cholera plate by Daryl Domman</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/trachoma-ncomms10688-sm.jpg</image:loc>
+       <image:caption>Phylogenic tree of Chlamydia trachomatis chromosomal sequences using single nucleotide polymorphisms (https://www.nature.com/articles/ncomms10688/figures/1)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/trachoma-ncomms10688-lg.jpg</image:loc>
+       <image:caption>Phylogenic tree of Chlamydia trachomatis chromosomal sequences using single nucleotide polymorphisms (https://www.nature.com/articles/ncomms10688/figures/1)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/chlamydia-1-sm.jpg</image:loc>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/chlamydia-1-lg.jpg</image:loc>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/small/chlamydia-2-sm.jpg</image:loc>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+    <image:image>
+       <image:loc>https://neglectedtropicaldiseases.org/img/ntds/large/chlamydia-2-lg.jpg</image:loc>
+       <image:caption>Chlamydia by David Goulding, Wellcome Sanger Institute (WSI)</image:caption>
+    </image:image>
+  </url>
+</urlset>
