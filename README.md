@@ -9,8 +9,9 @@
 * [Javascript](#javascript)
 	* [Making changes to JS](#making-changes-to-js)
 * [Images and videos](#images-and-videos)
+	*[Images](#images)
+	*[Videos](#videos)
 * [Include sections](#include-sections)
-* [Plugins](#plugins)
 * [Individual NTD pages](#individual-ntd-pages)
 * [NTD researcher stories](#ntd-researcher-stories)
 * [Seminars](#seminars)
@@ -103,13 +104,81 @@ Javascript (JS) has been split into separate files to aid loading times and SEO.
 
 ## Images and videos
 
+### Images
+Images are stored in `./img` and can be edited/prepared using [GIMP](https://www.gimp.org/). New images should be sent to the NTD RT (ntd@sanger.ac.uk). There is a Google Sheets table [here](https://docs.google.com/a/sanger.ac.uk/spreadsheets/d/1rGqt9b966e5fAfXlWvb4rNMGGaicT5E6LFL09Umm6fs) which contains the latest information. If you don't have access, please ask Jacqui (jm15), Victoria (vo1), or Nancy (neh) to share it with you. **PLEASE CHECK AND ADD THE LICENSING INFORMATION BEFORE PUTTING ON THE LIVE SITE!!**
+
+#### Image sizes 
+Images can be resized using GIMP:
+
+* Open the image in GIMP (File > Open).
+* Crop image (scalpel icon) if you think resizing will make it look odd.
+* Resize image (Image -> Scale Image). To be able to enter disproportionate custom sizes, you will need to click the link/chain icon.
+* Save as JPEG image (File > Export As...), accepting default options. 
+
+The table below contains more information on where images are stored and their expected sizes:
+
+| description | page | location | height (px) | width (px) |
+| :--- | :--- | :--- | :--- | :--- |
+| homepage banner images | `./index.html` | `./img/banner` | 500 | 1600 |
+| blog thumbnails | `./who.html` | `./img/blogs` | 350 | 350 |
+| NTD thumbnails | `./what.html` | `./img/ntds/thumbnails` | 225 | 300 |
+| NTD disease images | e.g. `./ntds/cholera.html` | `img/ntds/small` | 300 | undefined |
+| NTD researcher stories | e.g. `./blogs/pandemic-on-a-plate.html` | `img/ntds/small` | 300 | undefined |
+| gallery thumbnail | `./gallery.html` | `./img/ntds/small` | 300 | undefined |
+| gallery large | `./gallery.html` | `./img/ntds/large` | undefined | undefined |
+
+#### NTD logo
+The template for the NTD logo (`./img/logo-ntd`) can be opened and edited in GIMP and is found here: `./img/logo-template`.
+
+### Videos
+
+Videos are stored in `./videos` and need to be in `.mov` format.
+
+### Adding new images or videos
+
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Resize image(s) if required
+* Unless it is a blog author image, add the image to the gallery (`./gallery.html`). Requires both small and large versions to be prepared for the image(s).
+* Add image details to sitemap here: `./sitemap`. Make sure to add the details for the page the image is shown on as well as the small and large versions in the gallery.
+
 ## Include sections
 
-## Plugins
+So we don't use any "backend" languages, several site-wide components have been added as includes. These are:
+
+* `color-bar.html` - color bar at top of header
+* `navbar.html` - navigation panel in header (also `navbar-subdir.html` which is used on non-root pages)
+* `homepage-banner` - banner panel on homepage containing images and captions
+* `ntd-seminar.html` - right-hand sidebar on homepage and seminar page containing seminar details
+* `footer.html` - footer (also `footer-subdir.html` which is used on non-root pages)
+
+There is also a set of includes for the categories of NTDs on the What page (`./what.htm`) e.g. bacteria:
+
+* `./ntds/bacteria.html` - list of thumbnails for bacteria linking to individual disease pages
+* `./ntds/parasites.html` - list of thumbnails for parasites linking to individual disease pages
+
+*N.B. Any changes to the navbar or the footer need to be made in both the main and -subdir versions.*
 
 ## Individual NTD pages
 
+When adding a new NTD page to the site:
+
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Create the new NTD page using the relevant template (`./ntds/templates/bacteria-template.html` or `./ntds/templates/parasite-template.html`)
+* Create a thumbnail image for the NTD (see [Images](#images))
+* Add a the thumbnail and NTD disease details to `./what.html`
+* Make sure there is a small and large version of any images used in the page (see [Images](#images)). Add both of these to the gallery (`./gallery`)
+* Update the sitemap with the new NTD page and image locations
+
 ## NTD researcher stories
+
+When adding a new researcher story or blog to the site:
+
+* See [Updating the NTD website](#updating-the-ntd-website)
+* Create the new researcher story page using the template (`./blogs/template.html`)
+* Create a thumbnail image of the author (see [Images](#images))
+* Add the thumbnail and researcher story details to `./who.html`
+* Make sure there is a small and large version of any images used in the page (see [Images](#images)). Add both of these to the gallery (`./gallery`). You don't need to add the author image to the gallery.
+* Update the sitemap with the new researcher story page and image locations
 
 ## Seminars
 
