@@ -1,6 +1,9 @@
 # NTD website
+Wellcome Sanger Institute NTD website
 
-## Overview
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-brightgreen.svg)](https://github.com/sanger-pathogens/ntd_website/blob/master/LICENSE)
+
+## Contents
 
 * [Website structure](#website-structure)
 * [Updating the NTD website](#updating-the-ntd-website)
@@ -23,7 +26,8 @@
 	* [Downloading modified map](#downloading-modified-map)
 	* [Uploading modified map to live site](#uploading-modified-map-to-live-site)
 	* [Map label formatting](#map-label-formatting)
-	
+* [License](#license)
+* [Feedback/Issues](#feedbackissues)
 
 ## Website structure
 
@@ -304,3 +308,9 @@ You can use the instructions for [adding a new city](#adding-a-new-city). Instea
 | Size        | 25        |
 | Type        | marker    |    
 | Opacity     | 0.8       |
+
+## License
+NTD website is free software, licensed under [GPLv3](https://github.com/sanger-pathogens/ntd_website/blob/master/LICENSE).
+
+## Feedback/Issues
+Please report any issues to the [issues page](https://github.com/sanger-pathogens/ntd_website/issues) or email path-help@sanger.ac.uk.
